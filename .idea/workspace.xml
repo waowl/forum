@@ -6,17 +6,13 @@
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
-    <list id="fc5afe30-6e1e-45d9-8f77-684ef74af0f4" name="Default" comment="migrations" />
-    <list default="true" id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/thread/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/thread/view.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Thread.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Thread.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ThreadTest.php" afterDir="false" />
+    <list default="true" id="57c8ffe7-2c3a-4617-b5b1-d9ad61ce8a26" name="5c86b1d69d085c73adb73d0c CircleCI конфиг" comment="5c86b1d69d085c73adb73d0c CircleCI конфиг fix">
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
     </list>
+    <list id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="fc5afe30-6e1e-45d9-8f77-684ef74af0f4" name="Default" comment="migrations" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,41 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Thread.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Thread.php">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/ThreadTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-              <folding>
-                <element signature="e#33#48#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="phpunit.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phpunit.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="373">
+              <caret line="53" column="66" selection-start-line="53" selection-start-column="66" selection-end-line="53" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -81,47 +47,8 @@
       <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-              <folding>
-                <element signature="e#40#55#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/thread/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/thread/view.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="252">
+              <caret line="37" column="75" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -153,11 +80,15 @@
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" />
-        <option value="$PROJECT_DIR$/resources/views/thread/view.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/thread/index.blade.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ThreadTest.php" />
         <option value="$PROJECT_DIR$/app/Thread.php" />
-        <option value="$PROJECT_DIR$/resources/views/thread/index.blade.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/ReplyTest.php" />
+        <option value="$PROJECT_DIR$/app/Reply.php" />
+        <option value="$PROJECT_DIR$/resources/views/thread/view.blade.php" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
       </list>
     </option>
   </component>
@@ -263,7 +194,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="960" />
+    <option name="x" value="1" />
+    <option name="width" value="939" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -272,6 +204,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,41 +212,10 @@
               <item name="forum" type="b2602c69:ProjectViewProjectNode" />
               <item name="forum" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,7 +227,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="tasks.close.task.update.state.enabled" value="true" />
     <property name="tasks.open.task.update.state.enabled" value="true" />
   </component>
@@ -346,9 +248,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.ThreadTest">
+  <component name="RunManager" selected="PHPUnit.forumTests">
+    <configuration name="ReplyTest.it_has_owner" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\ReplyTest" file="$PROJECT_DIR$/tests/Unit/ReplyTest.php" method="it_has_owner" scope="Method" />
+    </configuration>
     <configuration name="ThreadTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ThreadTest" file="$PROJECT_DIR$/tests/Feature/ThreadTest.php" scope="Class" />
+    </configuration>
+    <configuration name="ThreadTest.user_can_see_a_reply_that_assosiated_with_a_thread" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ThreadTest" file="$PROJECT_DIR$/tests/Feature/ThreadTest.php" method="user_can_see_a_reply_that_assosiated_with_a_thread" scope="Method" />
     </configuration>
     <configuration name="forumTests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" directory="$PROJECT_DIR$/tests" use_alternative_configuration_file="true" />
@@ -356,9 +264,15 @@
     <list>
       <item itemvalue="PHPUnit.forumTests" />
       <item itemvalue="PHPUnit.ThreadTest" />
+      <item itemvalue="PHPUnit.ThreadTest.user_can_see_a_reply_that_assosiated_with_a_thread" />
+      <item itemvalue="PHPUnit.ReplyTest.it_has_owner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.ReplyTest.it_has_owner" />
+        <item itemvalue="PHPUnit.ThreadTest.user_can_see_a_reply_that_assosiated_with_a_thread" />
+        <item itemvalue="PHPUnit.ThreadTest" />
+        <item itemvalue="PHPUnit.ThreadTest" />
         <item itemvalue="PHPUnit.ThreadTest" />
       </list>
     </recent_temporary>
@@ -381,7 +295,6 @@
     <task id="LOCAL-00001" summary="Create migrations">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <changelist id="" name="Create migrations" comment="" />
       <created>1552305929517</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
@@ -393,8 +306,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <branch name="5c8654b6a500f18a14077c36" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <changelist id="" name="5c8654b6a500f18a14077c36 Создать фабрики" comment="" />
-      <created>1552314788695</created>
+      <created>1552332610130</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/w8NwVD6O/2-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8</url>
       <option name="number" value="2" />
@@ -402,32 +314,64 @@
       <updated>1552309674995</updated>
       <workItem from="1552307495874" duration="2176000" />
     </task>
-    <task active="true" id="5c865d89ae251432a2c103ea" summary="Первый тест">
+    <task id="5c865d89ae251432a2c103ea" summary="Первый тест">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
+      <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="" />
-      <created>1552314788695</created>
+      <created>1552332610130</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/3VP2Uiuo/3-%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B9-%D1%82%D0%B5%D1%81%D1%82</url>
       <option name="number" value="3" />
       <option name="presentableId" value="5c865d89ae251432a2c103ea" />
-      <updated>1552309938345</updated>
+      <updated>1552315693226</updated>
       <workItem from="1552309675506" duration="98000" />
       <workItem from="1552309824137" duration="42000" />
-      <workItem from="1552309939203" duration="4688000" />
+      <workItem from="1552309939203" duration="4756000" />
     </task>
     <task id="5c864f330703354255039545" summary="Создать миграции">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
-      <changelist id="" name="5c864f330703354255039545 Создать миграции" comment="" />
-      <created>1552314788695</created>
+      <created>1552332610130</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/RgtjjkKO/1-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D0%BC%D0%B8%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D0%B8</url>
       <option name="number" value="1" />
       <option name="presentableId" value="5c864f330703354255039545" />
-      <updated>1552309938319</updated>
+      <updated>1552315770579</updated>
       <workItem from="1552309866136" duration="73000" />
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="5c8661730989b16d7bc873c5" summary="Связи таблиц">
+      <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
+      <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
+      <changelist id="" name="5c8661730989b16d7bc873c5 Связи таблиц" comment="" />
+      <created>1552332610130</created>
+      <option name="issue" value="true" />
+      <url>https://trello.com/c/iAxUkLC2/4-%D1%81%D0%B2%D1%8F%D0%B7%D0%B8-%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86</url>
+      <option name="number" value="4" />
+      <option name="presentableId" value="5c8661730989b16d7bc873c5" />
+      <updated>1552331241889</updated>
+      <workItem from="1552315693888" duration="140000" />
+      <workItem from="1552317639904" duration="4399000" />
+      <workItem from="1552331132376" duration="109000" />
+    </task>
+    <task active="true" id="5c86b1d69d085c73adb73d0c" summary="CircleCI конфиг">
+      <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
+      <changelist id="57c8ffe7-2c3a-4617-b5b1-d9ad61ce8a26" name="5c86b1d69d085c73adb73d0c CircleCI конфиг" comment="" />
+      <created>1552332610130</created>
+      <option name="issue" value="true" />
+      <url>https://trello.com/c/EFpCBjjw/6-circleci-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3</url>
+      <option name="number" value="6" />
+      <option name="presentableId" value="5c86b1d69d085c73adb73d0c" />
+      <updated>1552331588163</updated>
+      <workItem from="1552331242755" duration="1597000" />
+    </task>
+    <task id="LOCAL-00003" summary="5c86b1d69d085c73adb73d0c CircleCI конфиг fix">
+      <created>1552332715723</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552332715723</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
     <option name="mergeBranch" value="false" />
@@ -454,101 +398,72 @@
     </servers>
   </component>
   <component name="TestHistory">
-    <history-entry file="forumTests - 2019.03.11 at 17h 41m 26s.xml">
+    <history-entry file="ReplyTest_it_has_owner - 2019.03.11 at 19h 00m 20s.xml">
+      <configuration name="ReplyTest.it_has_owner" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ReplyTest_it_has_owner - 2019.03.11 at 19h 00m 36s.xml">
+      <configuration name="ReplyTest.it_has_owner" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="forumTests - 2019.03.11 at 19h 01m 18s.xml">
       <configuration name="forumTests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="forumTests - 2019.03.11 at 17h 41m 37s.xml">
+    <history-entry file="forumTests - 2019.03.11 at 19h 01m 38s.xml">
       <configuration name="forumTests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="forumTests - 2019.03.11 at 17h 41m 44s.xml">
+    <history-entry file="ReplyTest_it_has_owner - 2019.03.11 at 19h 01m 55s.xml">
+      <configuration name="ReplyTest.it_has_owner" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ReplyTest_it_has_owner - 2019.03.11 at 19h 02m 35s.xml">
+      <configuration name="ReplyTest.it_has_owner" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ReplyTest_it_has_owner - 2019.03.11 at 19h 04m 16s.xml">
+      <configuration name="ReplyTest.it_has_owner" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ReplyTest_it_has_owner - 2019.03.11 at 19h 07m 50s.xml">
+      <configuration name="ReplyTest.it_has_owner" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="forumTests - 2019.03.11 at 19h 07m 55s.xml">
       <configuration name="forumTests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="forumTests - 2019.03.11 at 17h 41m 52s.xml">
-      <configuration name="forumTests" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="forumTests - 2019.03.11 at 17h 42m 05s.xml">
-      <configuration name="forumTests" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="forumTests - 2019.03.11 at 17h 42m 12s.xml">
-      <configuration name="forumTests" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="forumTests - 2019.03.11 at 17h 42m 19s.xml">
-      <configuration name="forumTests" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="forumTests - 2019.03.11 at 17h 42m 29s.xml">
-      <configuration name="forumTests" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="forumTests - 2019.03.11 at 17h 43m 29s.xml">
-      <configuration name="forumTests" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="forumTests - 2019.03.11 at 17h 46m 33s.xml">
+    <history-entry file="forumTests - 2019.03.11 at 19h 10m 19s.xml">
       <configuration name="forumTests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12703000" />
+    <option name="totallyTimeSpent" value="19016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Messages" weight="0.3290398" />
       <window_info anchor="bottom" id="Regex Tester" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50053704" side_tool="true" weight="0.33481154" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.496614" weight="0.33372366" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49946293" visible="true" weight="0.34201586" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.496614" visible="true" weight="0.32594234" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49946293" weight="0.3481153" />
       <window_info id="npm" order="0" sideWeight="0.5008104" side_tool="true" weight="0.23648648" />
       <window_info anchor="right" id="Mongo Explorer" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49785176" weight="0.3148358" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49785176" weight="0.31374723" />
       <window_info anchor="right" id="Remote Host" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49918962" weight="0.17024705" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.49918962" visible="true" weight="0.17024705" />
       <window_info anchor="right" id="ReST Console" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Tail" order="0" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.3991131" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="right" id="Commander" order="4" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info id="Gulp" order="1" sideWeight="0.5007899" side_tool="true" weight="0.112660944" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="bottom" id="Tail" order="1" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info id="npm" order="0" sideWeight="0.5008104" side_tool="true" weight="0.23648648" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49946293" visible="true" weight="0.34201586" />
-      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.49918962" visible="true" weight="0.17024705" />
-      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.496614" weight="0.33372366" />
-      <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Regex Tester" order="4" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info id="Gulp" order="1" sideWeight="0.5007899" side_tool="true" weight="0.112660944" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3290398" />
-      <window_info anchor="right" id="Mongo Explorer" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50053704" side_tool="true" weight="0.33481154" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="right" id="ReST Console" order="0" />
-      <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49785176" weight="0.3148358" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-    </layout-to-restore>
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3290398" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -583,10 +498,64 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="RELOAD_CONTEXT" value="false" />
     <MESSAGE value="5c864f330703354255039545 Создать миграции" />
-    <option name="LAST_COMMIT_MESSAGE" value="5c864f330703354255039545 Создать миграции" />
+    <MESSAGE value="5c86b1d69d085c73adb73d0c CircleCI конфиг fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="5c86b1d69d085c73adb73d0c CircleCI конфиг fix" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="10" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ThreadTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1372">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#33#47#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Reply.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Thread.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/thread/view.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/ReplyTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#30#44#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Thread.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -669,13 +638,6 @@
         <state relative-caret-position="-784" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phpunit.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -694,16 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
           <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-          <folding>
-            <element signature="e#40#55#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/thread/view.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -714,27 +666,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/thread/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/ThreadTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        <state relative-caret-position="1372">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
-            <element signature="e#33#48#0#PHP" expanded="true" />
+            <element signature="e#33#47#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Thread.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="420">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/thread/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/tests/Unit/ReplyTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        <state relative-caret-position="532">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#30#44#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Reply.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/thread/view.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="37" column="75" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="53" column="66" selection-start-line="53" selection-start-column="66" selection-end-line="53" selection-end-column="66" />
         </state>
       </provider>
     </entry>
