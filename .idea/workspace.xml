@@ -6,12 +6,12 @@
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
-    <list id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <list id="fc5afe30-6e1e-45d9-8f77-684ef74af0f4" name="Default" comment="migrations" />
     <list default="true" id="57c8ffe7-2c3a-4617-b5b1-d9ad61ce8a26" name="5c86b1d69d085c73adb73d0c CircleCI конфиг" comment="5c86b1d69d085c73adb73d0c CircleCI конфиг fix">
       <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+    </list>
+    <list id="fc5afe30-6e1e-45d9-8f77-684ef74af0f4" name="Default" comment="migrations" />
+    <list id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,8 +38,8 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="314">
+              <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -387,7 +387,7 @@
       <option name="number" value="6" />
       <option name="presentableId" value="5c86b1d69d085c73adb73d0c" />
       <updated>1552331588163</updated>
-      <workItem from="1552331242755" duration="2819000" />
+      <workItem from="1552331242755" duration="3396000" />
     </task>
     <task id="LOCAL-00003" summary="5c86b1d69d085c73adb73d0c CircleCI конфиг fix">
       <created>1552332715723</created>
@@ -462,10 +462,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20238000" />
+    <option name="totallyTimeSpent" value="20815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="bottom" id="Regex Tester" order="3" />
@@ -804,8 +805,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="314">
+          <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
         </state>
       </provider>
     </entry>
