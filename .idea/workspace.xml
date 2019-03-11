@@ -174,7 +174,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="tasks.close.task.update.state.enabled" value="true" />
+    <property name="tasks.close.task.update.state.enabled" value="false" />
     <property name="tasks.open.task.update.state.enabled" value="true" />
   </component>
   <component name="RunDashboard">
@@ -190,7 +190,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration>C:\Documents and Settings\Admin\Application Data\Subversion</configuration>
+    <configuration />
   </component>
   <component name="TaskManager">
     <task id="Default" summary="Default task">
