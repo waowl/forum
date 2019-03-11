@@ -12,4 +12,15 @@
             {{$thread->body}}
         </div>
     </div>
+    <h5>---- Replies -----</h5>
+    @foreach($thread->replies as $reply)
+        <div class="card mt-2">
+            <div class="card-header">
+                <a href=""> {{$reply->owner->name}}</a> said  {{$reply->created_at->diffForHumans()}}
+            </div>
+            <div class="card-body">
+                {{$reply->body}}
+            </div>
+        </div>
+    @endforeach
 @endsection

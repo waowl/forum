@@ -2,6 +2,7 @@
 
 namespace Tests\Feature;
 
+use App\Reply;
 use App\Thread;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
@@ -38,5 +39,18 @@ class ThreadTest extends TestCase
         $response = $this->get("/thread/{$this->thread->id}");
 
         $response->assertSee($this->thread->title);
+    }
+
+    /**
+     * @test
+     *
+     * */
+    public function user_can_see_a_reply_that_assosiated_with_a_thread()
+    {
+        $reply = factory(Reply::class)->create(['thread_id' => $this->thread->id]);
+
+        $response = $this->get("/thread/{$this->thread->id}");
+
+        $response->assertSee($reply->body);
     }
 }
