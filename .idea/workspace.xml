@@ -6,13 +6,13 @@
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
+    <list id="fc5afe30-6e1e-45d9-8f77-684ef74af0f4" name="Default" comment="migrations" />
     <list default="true" id="57c8ffe7-2c3a-4617-b5b1-d9ad61ce8a26" name="5c86b1d69d085c73adb73d0c CircleCI конфиг" comment="5c86b1d69d085c73adb73d0c CircleCI конфиг fix">
       <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
     </list>
     <list id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <list id="fc5afe30-6e1e-45d9-8f77-684ef74af0f4" name="Default" comment="migrations" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +38,8 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="53" column="66" selection-start-line="53" selection-start-column="66" selection-end-line="53" selection-end-column="66" />
+            <state relative-caret-position="569">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
@@ -47,8 +47,17 @@
       <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="-2458">
               <caret line="37" column="75" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseManager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="757">
+              <caret line="138" column="57" selection-start-line="138" selection-start-column="57" selection-end-line="138" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -306,7 +315,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <branch name="5c8654b6a500f18a14077c36" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1552332610130</created>
+      <created>1552333754482</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/w8NwVD6O/2-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8</url>
       <option name="number" value="2" />
@@ -319,7 +328,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="" />
-      <created>1552332610130</created>
+      <created>1552333754482</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/3VP2Uiuo/3-%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B9-%D1%82%D0%B5%D1%81%D1%82</url>
       <option name="number" value="3" />
@@ -331,7 +340,7 @@
     </task>
     <task id="5c864f330703354255039545" summary="Создать миграции">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
-      <created>1552332610130</created>
+      <created>1552333754482</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/RgtjjkKO/1-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D0%BC%D0%B8%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D0%B8</url>
       <option name="number" value="1" />
@@ -343,7 +352,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="" name="5c8661730989b16d7bc873c5 Связи таблиц" comment="" />
-      <created>1552332610130</created>
+      <created>1552333754482</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/iAxUkLC2/4-%D1%81%D0%B2%D1%8F%D0%B7%D0%B8-%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86</url>
       <option name="number" value="4" />
@@ -356,13 +365,13 @@
     <task active="true" id="5c86b1d69d085c73adb73d0c" summary="CircleCI конфиг">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <changelist id="57c8ffe7-2c3a-4617-b5b1-d9ad61ce8a26" name="5c86b1d69d085c73adb73d0c CircleCI конфиг" comment="" />
-      <created>1552332610130</created>
+      <created>1552333754482</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/EFpCBjjw/6-circleci-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3</url>
       <option name="number" value="6" />
       <option name="presentableId" value="5c86b1d69d085c73adb73d0c" />
       <updated>1552331588163</updated>
-      <workItem from="1552331242755" duration="1597000" />
+      <workItem from="1552331242755" duration="2497000" />
     </task>
     <task id="LOCAL-00003" summary="5c86b1d69d085c73adb73d0c CircleCI конфиг fix">
       <created>1552332715723</created>
@@ -371,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552332715723</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="5c86b1d69d085c73adb73d0c CircleCI конфиг fix">
+      <created>1552332866710</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552332866710</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
     <option name="mergeBranch" value="false" />
@@ -430,7 +446,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19016000" />
+    <option name="totallyTimeSpent" value="19916000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -440,7 +456,7 @@
       <window_info anchor="bottom" id="Regex Tester" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50053704" side_tool="true" weight="0.33481154" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.496614" visible="true" weight="0.32594234" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.496614" weight="0.32594234" />
       <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49946293" weight="0.3481153" />
       <window_info id="npm" order="0" sideWeight="0.5008104" side_tool="true" weight="0.23648648" />
       <window_info anchor="right" id="Mongo Explorer" order="1" />
@@ -464,6 +480,35 @@
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Tail" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info id="npm" order="0" sideWeight="0.5008104" side_tool="true" weight="0.23648648" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49946293" weight="0.3481153" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="2" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49918962" visible="true" weight="0.17024705" />
+      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.496614" weight="0.32594234" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Regex Tester" order="3" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.3991131" />
+      <window_info id="Gulp" order="1" sideWeight="0.5007899" side_tool="true" weight="0.112660944" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3290398" />
+      <window_info anchor="right" id="Mongo Explorer" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50053704" side_tool="true" weight="0.33481154" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="right" id="ReST Console" order="0" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="6" sideWeight="0.49785176" visible="true" weight="0.31374723" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -723,17 +768,24 @@
     <entry file="file://$PROJECT_DIR$/.editorconfig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="138" column="57" selection-start-line="138" selection-start-column="57" selection-end-line="138" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="-2458">
           <caret line="37" column="75" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="53" column="66" selection-start-line="53" selection-start-column="66" selection-end-line="53" selection-end-column="66" />
+        <state relative-caret-position="569">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
