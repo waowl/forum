@@ -9,7 +9,7 @@ class ThreadController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('auth')->only('create');
+        $this->middleware('auth')->except('index', 'show');
     }
     public function index()
     {
@@ -23,6 +23,11 @@ class ThreadController extends Controller
     }
 
     public function create()
+    {
+        return view('thread.create');
+    }
+
+    public function store()
     {
         $thread = Thread::create([
             'user_id' => auth()->id(),

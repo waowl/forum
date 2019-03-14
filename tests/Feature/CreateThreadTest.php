@@ -31,6 +31,15 @@ class CreateThreadTest extends TestCase
      * @test
      *
      * */
+    public function an_unauthenticated_user_may_not_see_create_thread_page()
+    {
+        $this->withoutExceptionHandling(['Illuminate\Auth\AuthenticationException'])->get('/thread/create')->assertRedirect('/login');
+    }
+
+    /**
+     * @test
+     *
+     * */
     public function a_user_may_create_a_thread()
     {
         $this->actingAs(create(User::class));
