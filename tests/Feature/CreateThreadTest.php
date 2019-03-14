@@ -33,7 +33,9 @@ class CreateThreadTest extends TestCase
      * */
     public function an_unauthenticated_user_may_not_see_create_thread_page()
     {
-        $this->withoutExceptionHandling(['Illuminate\Auth\AuthenticationException'])->get('/thread/create')->assertRedirect('/login');
+        $this->expectException('Illuminate\Auth\AuthenticationException');
+        $this->get('/thread/create')
+            ->assertRedirect('/login');
     }
 
     /**
