@@ -12,9 +12,10 @@ class ThreadController extends Controller
     {
         $this->middleware('auth')->except('index', 'view');
     }
-    public function index()
+
+    public function index(Channel $channel)
     {
-        $threads = Thread::latest()->get();
+        $threads = $channel->threads()->exists() ? $channel->threads()->latest()->get() : Thread::latest()->get();
         return view('thread.index', compact('threads'));
     }
 

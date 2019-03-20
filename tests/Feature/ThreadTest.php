@@ -2,6 +2,7 @@
 
 namespace Tests\Feature;
 
+use App\Channel;
 use App\Reply;
 use App\Thread;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
@@ -52,5 +53,21 @@ class ThreadTest extends TestCase
         $response = $this->get($this->thread->path());
 
         $response->assertSee($reply->body);
+    }
+
+    /**
+     * @test
+     *
+     * */
+    public function user_can_see_threads_in_a_channel()
+    {
+        $channel = create(Channel::class);
+        $threadIn = create(Thread::class, ['channel_id' => $channel->id]);
+        $threadNotIn = create(Thread::class);
+
+        $this->get("/thread/{$channel->slug}")
+            ->assertSee($threadIn->title)
+            ->assertDontSee($threadNotIn->title);
+
     }
 }
