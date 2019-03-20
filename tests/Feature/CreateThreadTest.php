@@ -46,7 +46,7 @@ class CreateThreadTest extends TestCase
     {
         $this->actingAs(create(User::class));
 
-        $thread = make(Thread::class);
+        $thread = create(Thread::class);
 
         $this->post('/thread', $thread->toArray());
 

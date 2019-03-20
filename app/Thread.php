@@ -9,7 +9,7 @@ class Thread extends Model
     protected $guarded = [];
     public function path()
     {
-        return "/thread/{$this->id}";
+        return "/thread/{$this->channel->slug}/{$this->id}";
     }
 
     public function replies()

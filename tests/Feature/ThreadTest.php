@@ -36,7 +36,7 @@ class ThreadTest extends TestCase
     public function user_can_see_a_single_thread()
     {
 
-        $response = $this->get("/thread/{$this->thread->id}");
+        $response = $this->get($this->thread->path());
 
         $response->assertSee($this->thread->title);
     }
@@ -49,7 +49,7 @@ class ThreadTest extends TestCase
     {
         $reply = factory(Reply::class)->create(['thread_id' => $this->thread->id]);
 
-        $response = $this->get("/thread/{$this->thread->id}");
+        $response = $this->get($this->thread->path());
 
         $response->assertSee($reply->body);
     }
