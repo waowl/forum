@@ -37,10 +37,21 @@ class ParticipationForumTest extends TestCase
      * */
     public function an_unauthorized_user_may_not_create_a_reply()
     {
+        $this->withoutExceptionHandling();
         $this->expectException(AuthenticationException::class);
         $thread = factory(Thread::class)->create();
         $reply = factory(Reply::class)->make();
         $this->post($thread->path() . '/reply', $reply->toArray());
+
+    }
+
+    /** @test */
+    public function a_reply_requires_a_body()
+    {
+        $this->signIn(create(User::class));
+        $thread = create(Thread::class);
+        $reply = make(Reply::class, ['body' => null]);
+        $this->post($thread->path()."/reply", $reply->toArray())->assertSessionHasErrors('body');
 
     }
 }

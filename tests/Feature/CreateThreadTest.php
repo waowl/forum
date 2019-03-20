@@ -20,6 +20,7 @@ class CreateThreadTest extends TestCase
      * */
     public function an_unauthenticated_user_may_not_create_a_thread()
     {
+        $this->withoutExceptionHandling();
         $this->expectException('Illuminate\Auth\AuthenticationException');
 
         $thread = make(Thread::class);
@@ -33,9 +34,10 @@ class CreateThreadTest extends TestCase
      * */
     public function an_unauthenticated_user_may_not_see_create_thread_page()
     {
+        $this->withoutExceptionHandling();
+
         $this->expectException('Illuminate\Auth\AuthenticationException');
-        $this->get('/thread/create')
-            ->assertRedirect('/login');
+        $this->get('/thread/create')->assertRedirect('/login');
     }
 
     /**
@@ -51,6 +53,52 @@ class CreateThreadTest extends TestCase
         $this->post('/thread', $thread->toArray());
 
         $this->get('/thread')->assertSee($thread->title)->assertSee($thread->body);
+    }
+
+    /**
+     * @test
+     */
+    public function a_thread_requires_a_title()
+    {
+        $this->withExceptionHandling();
+
+        $this->signIn(create(User::class));
+
+        $thread = make(Thread::class, ['title' => null]);
+
+        $this->post('/thread', $thread->toArray())->assertSessionHasErrors('title');
+
+    }
+    /**
+     * @test
+     */
+    public function a_thread_requires_a_body()
+    {
+        $this->withExceptionHandling();
+
+        $this->signIn(create(User::class));
+
+        $thread = make(Thread::class, ['body' => null]);
+
+        $this->post('/thread', $thread->toArray())->assertSessionHasErrors('body');
+
+    }
+
+    /**
+     * @test
+     */
+    public function a_thread_requires_a_channel_id()
+    {
+        $this->withExceptionHandling();
+
+        $this->signIn(create(User::class));
+
+        $thread = make(Thread::class, ['channel_id' => null]);
+        $threadTwo = make(Thread::class, ['channel_id' => 9999]);
+
+        $this->post('/thread', $thread->toArray())->assertSessionHasErrors('channel_id');
+        $this->post('/thread', $threadTwo->toArray())->assertSessionHasErrors('channel_id');
+
     }
 
 }
