@@ -9,18 +9,18 @@
     <list default="true" id="5ac61f5f-ba9e-482d-b359-72faa6a73f5d" name="5c8d40fcf7b44a3a9d3fd7b1 Создать категории" comment="5c8d40fcf7b44a3a9d3fd7b1 Создать категории">
       <change beforePath="$PROJECT_DIR$/tests/Feature/CreateThreadTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/CreateThreadTest.php" afterDir="false" />
     </list>
-    <list id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="" />
-    <list id="57c8ffe7-2c3a-4617-b5b1-d9ad61ce8a26" name="5c86b1d69d085c73adb73d0c CircleCI конфиг" comment="5c86b1d69d085c73adb73d0c CircleCI конфиг fix" />
+    <list id="fc5afe30-6e1e-45d9-8f77-684ef74af0f4" name="Default" comment="migrations" />
     <list id="bbb110c0-4b94-40ce-9087-fcd4e77db732" name="5c86617ec3f66e44f37ecdfc Комментарии" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <list id="fc5afe30-6e1e-45d9-8f77-684ef74af0f4" name="Default" comment="migrations" />
+    <list id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="" />
     <list id="846211ec-f9d1-4ce5-b9b1-0612c3f06735" name="5c8a498b690f1e0a4be71b51 Добавление треда" comment="Create Thread Test">
       <change beforePath="$PROJECT_DIR$/app/Thread.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Thread.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_11_110808_create_threads_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_11_110808_create_threads_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Unit/ThreadTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ThreadTest.php" afterDir="false" />
     </list>
+    <list id="57c8ffe7-2c3a-4617-b5b1-d9ad61ce8a26" name="5c86b1d69d085c73adb73d0c CircleCI конфиг" comment="5c86b1d69d085c73adb73d0c CircleCI конфиг fix" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CreateThreadTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreateThreadTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Feature/CreateThreadTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="319">
@@ -114,6 +114,15 @@
               <folding>
                 <element signature="e#40#56#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2019_03_11_110808_create_threads_table.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_110808_create_threads_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -271,7 +280,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="960" />
     <option name="height" value="1050" />
   </component>
@@ -402,7 +411,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Documents and Settings\Admin\Application Data\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task id="Default" summary="Default task">
@@ -573,7 +582,7 @@
       <option name="number" value="10" />
       <option name="presentableId" value="5c8d40fcf7b44a3a9d3fd7b1" />
       <updated>1553065088132</updated>
-      <workItem from="1553062809397" duration="3001000" />
+      <workItem from="1553062809397" duration="3267000" />
     </task>
     <option name="localTasksCounter" value="6" />
     <option name="createBranch" value="false" />
@@ -602,9 +611,6 @@
     </servers>
   </component>
   <component name="TestHistory">
-    <history-entry file="forumTests - 2019.03.20 at 09h 39m 40s.xml">
-      <configuration name="forumTests" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="ParticipationForumTest_an_authorized_user_may_create_a_reply - 2019.03.20 at 09h 40m 26s.xml">
       <configuration name="ParticipationForumTest.an_authorized_user_may_create_a_reply" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -632,25 +638,27 @@
     <history-entry file="forumTests - 2019.03.20 at 10h 04m 37s.xml">
       <configuration name="forumTests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="CreateThreadTest_a_user_may_create_a_thread - 2019.03.20 at 10h 11m 04s.xml">
+      <configuration name="CreateThreadTest.a_user_may_create_a_thread" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41349000" />
+    <option name="totallyTimeSpent" value="41615000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="bottom" id="Regex Tester" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5026853" side_tool="true" weight="0.31257078" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.496614" weight="0.3248337" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49946293" visible="true" weight="0.37028825" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49946293" weight="0.37028825" />
       <window_info id="npm" order="0" sideWeight="0.50176054" side_tool="true" weight="0.17024705" />
       <window_info anchor="right" id="Mongo Explorer" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49731472" weight="0.30487806" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="6" sideWeight="0.49731472" visible="true" weight="0.30487806" />
       <window_info anchor="right" id="Remote Host" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.49823943" visible="true" weight="0.17024705" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49823943" visible="true" weight="0.17024705" />
       <window_info anchor="right" id="ReST Console" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Tail" order="0" />
@@ -990,13 +998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_110808_create_threads_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phpunit.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
@@ -1080,6 +1081,13 @@
           <folding>
             <element signature="e#33#48#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_11_110808_create_threads_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
         </state>
       </provider>
     </entry>

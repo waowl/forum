@@ -48,8 +48,6 @@ class CreateThreadTest extends TestCase
 
         $thread = create(Thread::class);
 
-        dd($thread);
-
         $this->post('/thread', $thread->toArray());
 
         $this->get('/thread')->assertSee($thread->title)->assertSee($thread->body);
