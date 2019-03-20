@@ -6,20 +6,21 @@
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
+    <list id="bbb110c0-4b94-40ce-9087-fcd4e77db732" name="5c86617ec3f66e44f37ecdfc Комментарии" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="846211ec-f9d1-4ce5-b9b1-0612c3f06735" name="5c8a498b690f1e0a4be71b51 Добавление треда" comment="Create Thread Test" />
-    <list id="fc5afe30-6e1e-45d9-8f77-684ef74af0f4" name="Default" comment="migrations" />
     <list default="true" id="5ac61f5f-ba9e-482d-b359-72faa6a73f5d" name="5c8d40fcf7b44a3a9d3fd7b1 Создать категории" comment="5c8d40fcf7b44a3a9d3fd7b1 Создать категории">
       <change beforePath="$PROJECT_DIR$/app/Channel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Channel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/CreateThreadTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/CreateThreadTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/ThreadTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ThreadTest.php" afterDir="false" />
     </list>
-    <list id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="" />
-    <list id="bbb110c0-4b94-40ce-9087-fcd4e77db732" name="5c86617ec3f66e44f37ecdfc Комментарии" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
     <list id="57c8ffe7-2c3a-4617-b5b1-d9ad61ce8a26" name="5c86b1d69d085c73adb73d0c CircleCI конфиг" comment="5c86b1d69d085c73adb73d0c CircleCI конфиг fix" />
+    <list id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="" />
+    <list id="fc5afe30-6e1e-45d9-8f77-684ef74af0f4" name="Default" comment="migrations" />
     <ignored path="D:\install\OpenServer\OSPanel\domains\forum\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -100,11 +101,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="47" column="89" selection-start-line="47" selection-start-column="89" selection-end-line="47" selection-end-column="89" />
+            <state relative-caret-position="308">
+              <caret line="45" column="82" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateThreadTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/CreateThreadTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="e#33#48#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,13 +165,13 @@
         <option value="$PROJECT_DIR$/tests/Unit/ThreadTest.php" />
         <option value="$PROJECT_DIR$/app/Thread.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/CreateThreadTest.php" />
         <option value="$PROJECT_DIR$/tests/Unit/ChannelTest.php" />
         <option value="$PROJECT_DIR$/app/Channel.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ThreadTest.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/CreateThreadTest.php" />
       </list>
     </option>
   </component>
@@ -263,7 +276,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="960" />
     <option name="height" value="1050" />
   </component>
@@ -272,7 +285,42 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Feature" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
@@ -305,18 +353,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.ThreadTest.user_can_see_threads_in_a_channel">
+  <component name="RunManager" selected="PHPUnit.CreateThreadTest.an_unauthenticated_user_may_not_see_create_thread_page">
     <configuration name="ChannelTest.a_channel_contains_a_thread" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Unit\ChannelTest" file="$PROJECT_DIR$/tests/Unit/ChannelTest.php" method="a_channel_contains_a_thread" scope="Method" />
     </configuration>
     <configuration name="CreateThreadTest.a_user_may_create_a_thread" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\CreateThreadTest" file="$PROJECT_DIR$/tests/Feature/CreateThreadTest.php" method="a_user_may_create_a_thread" scope="Method" />
     </configuration>
+    <configuration name="CreateThreadTest.an_unauthenticated_user_may_not_see_create_thread_page" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\CreateThreadTest" file="$PROJECT_DIR$/tests/Feature/CreateThreadTest.php" method="an_unauthenticated_user_may_not_see_create_thread_page" scope="Method" />
+    </configuration>
     <configuration name="ParticipationForumTest.an_authorized_user_may_create_a_reply" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ParticipationForumTest" file="$PROJECT_DIR$/tests/Feature/ParticipationForumTest.php" method="an_authorized_user_may_create_a_reply" scope="Method" />
-    </configuration>
-    <configuration name="ThreadTest.user_can_see_a_reply_that_assosiated_with_a_thread" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ThreadTest" file="$PROJECT_DIR$/tests/Feature/ThreadTest.php" method="user_can_see_a_reply_that_assosiated_with_a_thread" scope="Method" />
     </configuration>
     <configuration name="ThreadTest.user_can_see_threads_in_a_channel" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ThreadTest" file="$PROJECT_DIR$/tests/Feature/ThreadTest.php" method="user_can_see_threads_in_a_channel" scope="Method" />
@@ -327,18 +375,18 @@
     <list>
       <item itemvalue="PHPUnit.forumTests" />
       <item itemvalue="PHPUnit.CreateThreadTest.a_user_may_create_a_thread" />
-      <item itemvalue="PHPUnit.ThreadTest.user_can_see_a_reply_that_assosiated_with_a_thread" />
       <item itemvalue="PHPUnit.ParticipationForumTest.an_authorized_user_may_create_a_reply" />
       <item itemvalue="PHPUnit.ChannelTest.a_channel_contains_a_thread" />
       <item itemvalue="PHPUnit.ThreadTest.user_can_see_threads_in_a_channel" />
+      <item itemvalue="PHPUnit.CreateThreadTest.an_unauthenticated_user_may_not_see_create_thread_page" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.CreateThreadTest.an_unauthenticated_user_may_not_see_create_thread_page" />
         <item itemvalue="PHPUnit.ThreadTest.user_can_see_threads_in_a_channel" />
         <item itemvalue="PHPUnit.ChannelTest.a_channel_contains_a_thread" />
         <item itemvalue="PHPUnit.CreateThreadTest.a_user_may_create_a_thread" />
         <item itemvalue="PHPUnit.ParticipationForumTest.an_authorized_user_may_create_a_reply" />
-        <item itemvalue="PHPUnit.ThreadTest.user_can_see_a_reply_that_assosiated_with_a_thread" />
       </list>
     </recent_temporary>
   </component>
@@ -526,7 +574,7 @@
       <option name="presentableId" value="5c91e9aff8c86d80475d7f88" />
       <updated>1553067673977</updated>
       <workItem from="1553067675873" duration="1864000" />
-      <workItem from="1553070208904" duration="1404000" />
+      <workItem from="1553070208904" duration="1712000" />
     </task>
     <option name="localTasksCounter" value="6" />
     <option name="createChangelist" value="false" />
@@ -589,10 +637,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45680000" />
+    <option name="totallyTimeSpent" value="45988000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="13" />
@@ -600,10 +648,10 @@
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5026853" side_tool="true" weight="0.31257078" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.496614" weight="0.3248337" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49946293" weight="0.37028825" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49946293" visible="true" weight="0.3691959" />
       <window_info id="npm" order="0" sideWeight="0.50176054" side_tool="true" weight="0.17024705" />
       <window_info anchor="right" id="Mongo Explorer" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49731472" weight="0.30487806" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49731472" weight="0.30464327" />
       <window_info anchor="right" id="Remote Host" order="2" />
       <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49823943" weight="0.17024705" />
       <window_info anchor="right" id="ReST Console" order="0" />
@@ -981,13 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/CreateThreadTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="52" column="63" lean-forward="true" selection-start-line="52" selection-start-column="63" selection-end-line="52" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/ChannelTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1025,6 +1066,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="45" column="82" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1032,10 +1080,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+    <entry file="file://$PROJECT_DIR$/tests/Feature/CreateThreadTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="47" column="89" selection-start-line="47" selection-start-column="89" selection-end-line="47" selection-end-column="89" />
+        <state relative-caret-position="298">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#33#48#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
