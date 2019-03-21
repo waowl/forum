@@ -38,6 +38,9 @@
                     <li class="nav-item">
                         <a href="{{route('threads')}}" class="nav-link">All Threads</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="/thread/create" class="nav-link">Create a new thread</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
                            aria-haspopup="true" aria-expanded="false">

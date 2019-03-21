@@ -6,24 +6,17 @@
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
+    <list id="846211ec-f9d1-4ce5-b9b1-0612c3f06735" name="5c8a498b690f1e0a4be71b51 Добавление треда" comment="Create Thread Test" />
+    <list id="57c8ffe7-2c3a-4617-b5b1-d9ad61ce8a26" name="5c86b1d69d085c73adb73d0c CircleCI конфиг" comment="5c86b1d69d085c73adb73d0c CircleCI конфиг fix" />
+    <list id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="" />
+    <list default="true" id="5ac61f5f-ba9e-482d-b359-72faa6a73f5d" name="5c8d40fcf7b44a3a9d3fd7b1 Создать категории" comment="5c8d40fcf7b44a3a9d3fd7b1 Создать категории">
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/thread/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/thread/create.blade.php" afterDir="false" />
+    </list>
+    <list id="fc5afe30-6e1e-45d9-8f77-684ef74af0f4" name="Default" comment="migrations" />
     <list id="bbb110c0-4b94-40ce-9087-fcd4e77db732" name="5c86617ec3f66e44f37ecdfc Комментарии" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <list default="true" id="5ac61f5f-ba9e-482d-b359-72faa6a73f5d" name="5c8d40fcf7b44a3a9d3fd7b1 Создать категории" comment="5c8d40fcf7b44a3a9d3fd7b1 Создать категории">
-      <change beforePath="$PROJECT_DIR$/app/Channel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Channel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/CreateThreadTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/CreateThreadTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ParticipationForumTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ParticipationForumTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ThreadTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ThreadTest.php" afterDir="false" />
-    </list>
-    <list id="fc5afe30-6e1e-45d9-8f77-684ef74af0f4" name="Default" comment="migrations" />
-    <list id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="" />
-    <list id="57c8ffe7-2c3a-4617-b5b1-d9ad61ce8a26" name="5c86b1d69d085c73adb73d0c CircleCI конфиг" comment="5c86b1d69d085c73adb73d0c CircleCI конфиг fix" />
-    <list id="846211ec-f9d1-4ce5-b9b1-0612c3f06735" name="5c8a498b690f1e0a4be71b51 Добавление треда" comment="Create Thread Test" />
     <ignored path="D:\install\OpenServer\OSPanel\domains\forum\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,41 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ChannelTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Unit/ChannelTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-              <folding>
-                <element signature="e#30#46#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Channel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Channel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ThreadController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="40" column="46" lean-forward="true" selection-start-line="40" selection-start-column="46" selection-end-line="41" selection-end-column="41" />
+            <state relative-caret-position="774">
+              <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="41" selection-end-column="41" />
               <folding>
                 <element signature="e#40#56#0#PHP" expanded="true" />
               </folding>
@@ -92,23 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/ThreadTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
-              <folding>
-                <element signature="e#33#49#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="45" column="82" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="82" />
+            <state relative-caret-position="364">
+              <caret line="41" column="85" selection-start-line="41" selection-start-column="85" selection-end-line="41" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -116,7 +67,7 @@
       <file leaf-file-name="CreateThreadTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Feature/CreateThreadTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="2632">
               <caret line="99" column="41" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
               <folding>
                 <element signature="e#33#48#0#PHP" expanded="true" />
@@ -125,32 +76,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Handler.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ParticipationForumTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Feature/ParticipationForumTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+            <state relative-caret-position="158">
+              <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReplyController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReplyController.php">
+      <file leaf-file-name="Thread.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Thread.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding>
-                <element signature="e#40#56#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="336">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/thread/create.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -188,7 +136,6 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/tests/utililities/functions.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/resources/views/thread/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/thread/view.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_20_061253_create_channels_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_11_110808_create_threads_table.php" />
@@ -198,13 +145,14 @@
         <option value="$PROJECT_DIR$/tests/Unit/ChannelTest.php" />
         <option value="$PROJECT_DIR$/app/Channel.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ThreadTest.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Exceptions/Handler.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadController.php" />
         <option value="$PROJECT_DIR$/tests/Feature/CreateThreadTest.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/ParticipationForumTest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/ParticipationForumTest.php" />
+        <option value="$PROJECT_DIR$/resources/views/thread/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
       </list>
     </option>
   </component>
@@ -227,6 +175,9 @@
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
@@ -319,7 +270,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,13 +280,27 @@
             <path>
               <item name="forum" type="b2602c69:ProjectViewProjectNode" />
               <item name="forum" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="forum" type="b2602c69:ProjectViewProjectNode" />
               <item name="forum" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="forum" type="b2602c69:ProjectViewProjectNode" />
@@ -353,6 +317,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,7 +351,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.ParticipationForumTest.a_reply_requires_a_body">
+  <component name="RunManager" selected="PHPUnit.forumTests">
     <configuration name="CreateThreadTest.a_thread_requires_a_body" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\CreateThreadTest" file="$PROJECT_DIR$/tests/Feature/CreateThreadTest.php" method="a_thread_requires_a_body" scope="Method" />
     </configuration>
@@ -424,7 +389,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Documents and Settings\Admin\Application Data\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task id="Default" summary="Default task">
@@ -452,6 +417,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <branch name="5c8654b6a500f18a14077c36" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
+      <created>1553166270949</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/w8NwVD6O/2-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8</url>
       <option name="number" value="2" />
@@ -464,6 +430,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="" />
+      <created>1553166270949</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/3VP2Uiuo/3-%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B9-%D1%82%D0%B5%D1%81%D1%82</url>
       <option name="number" value="3" />
@@ -475,6 +442,7 @@
     </task>
     <task id="5c864f330703354255039545" summary="Создать миграции">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
+      <created>1553166270949</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/RgtjjkKO/1-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D0%BC%D0%B8%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D0%B8</url>
       <option name="number" value="1" />
@@ -485,6 +453,7 @@
     <task id="5c8661730989b16d7bc873c5" summary="Связи таблиц">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
+      <created>1553166270949</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/iAxUkLC2/4-%D1%81%D0%B2%D1%8F%D0%B7%D0%B8-%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86</url>
       <option name="number" value="4" />
@@ -498,6 +467,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="57c8ffe7-2c3a-4617-b5b1-d9ad61ce8a26" name="5c86b1d69d085c73adb73d0c CircleCI конфиг" comment="" />
+      <created>1553166270949</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/EFpCBjjw/6-circleci-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3</url>
       <option name="number" value="6" />
@@ -525,6 +495,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="bbb110c0-4b94-40ce-9087-fcd4e77db732" name="5c86617ec3f66e44f37ecdfc Комментарии" comment="" />
+      <created>1553166270949</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/0BZp99Cy/5-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B8</url>
       <option name="number" value="5" />
@@ -538,6 +509,7 @@
     <task id="5c8810ca2870d4833ff5be73" summary="Форма комментария">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
+      <created>1553166270949</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/t6Bk4wi5/7-%D1%84%D0%BE%D1%80%D0%BC%D0%B0-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D1%8F</url>
       <option name="number" value="7" />
@@ -548,6 +520,7 @@
     <task id="5c8a42d3dd45be057ac67d25" summary="Меню">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
+      <created>1553166270949</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/en6QDPTx/8-%D0%BC%D0%B5%D0%BD%D1%8E</url>
       <option name="number" value="8" />
@@ -559,6 +532,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="846211ec-f9d1-4ce5-b9b1-0612c3f06735" name="5c8a498b690f1e0a4be71b51 Добавление треда" comment="" />
+      <created>1553166270949</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/DtFqino0/9-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%82%D1%80%D0%B5%D0%B4%D0%B0</url>
       <option name="number" value="9" />
@@ -581,6 +555,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="5ac61f5f-ba9e-482d-b359-72faa6a73f5d" name="5c8d40fcf7b44a3a9d3fd7b1 Создать категории" comment="" />
+      <created>1553166270949</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/lPv3sjpE/10-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B8</url>
       <option name="number" value="10" />
@@ -590,13 +565,15 @@
     </task>
     <task active="true" id="5c91e9aff8c86d80475d7f88" summary="Фильтрация по каналам">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
+      <created>1553166270949</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/L6dZXkSS/11-%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0%D0%BC</url>
       <option name="number" value="11" />
       <option name="presentableId" value="5c91e9aff8c86d80475d7f88" />
       <updated>1553071753561</updated>
       <workItem from="1553067675873" duration="1864000" />
-      <workItem from="1553070208904" duration="4988000" />
+      <workItem from="1553070208904" duration="6117000" />
+      <workItem from="1553164959055" duration="1845000" />
     </task>
     <option name="localTasksCounter" value="6" />
     <option name="createChangelist" value="false" />
@@ -627,42 +604,42 @@
     </servers>
   </component>
   <component name="TestHistory">
-    <history-entry file="CreateThreadTest_a_thread_requires_a_title - 2019.03.20 at 12h 31m 56s.xml">
-      <configuration name="CreateThreadTest.a_thread_requires_a_title" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CreateThreadTest_a_thread_requires_a_body - 2019.03.20 at 12h 32m 07s.xml">
-      <configuration name="CreateThreadTest.a_thread_requires_a_body" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CreateThreadTest_a_thread_requires_a_body - 2019.03.20 at 12h 33m 14s.xml">
-      <configuration name="CreateThreadTest.a_thread_requires_a_body" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CreateThreadTest_a_thread_requires_a_body - 2019.03.20 at 12h 33m 38s.xml">
-      <configuration name="CreateThreadTest.a_thread_requires_a_body" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CreateThreadTest_a_thread_requires_a_channel_id - 2019.03.20 at 12h 34m 23s.xml">
-      <configuration name="CreateThreadTest.a_thread_requires_a_channel_id" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CreateThreadTest_a_thread_requires_a_channel_id - 2019.03.20 at 12h 36m 17s.xml">
-      <configuration name="CreateThreadTest.a_thread_requires_a_channel_id" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="CreateThreadTest_a_thread_requires_a_channel_id - 2019.03.20 at 12h 41m 10s.xml">
-      <configuration name="CreateThreadTest.a_thread_requires_a_channel_id" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ParticipationForumTest_a_reply_requires_a_body - 2019.03.20 at 12h 41m 14s.xml">
+    <history-entry file="ParticipationForumTest_a_reply_requires_a_body - 2019.03.20 at 12h 50m 36s.xml">
       <configuration name="ParticipationForumTest.a_reply_requires_a_body" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="ParticipationForumTest_a_reply_requires_a_body - 2019.03.20 at 12h 42m 21s.xml">
+    <history-entry file="ParticipationForumTest_a_reply_requires_a_body - 2019.03.20 at 12h 51m 16s.xml">
       <configuration name="ParticipationForumTest.a_reply_requires_a_body" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="ParticipationForumTest_a_reply_requires_a_body - 2019.03.20 at 12h 43m 30s.xml">
+    <history-entry file="ParticipationForumTest_a_reply_requires_a_body - 2019.03.20 at 12h 52m 17s.xml">
       <configuration name="ParticipationForumTest.a_reply_requires_a_body" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ParticipationForumTest_a_reply_requires_a_body - 2019.03.20 at 12h 52m 35s.xml">
+      <configuration name="ParticipationForumTest.a_reply_requires_a_body" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ParticipationForumTest_a_reply_requires_a_body - 2019.03.20 at 12h 53m 22s.xml">
+      <configuration name="ParticipationForumTest.a_reply_requires_a_body" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ParticipationForumTest_a_reply_requires_a_body - 2019.03.20 at 12h 53m 58s.xml">
+      <configuration name="ParticipationForumTest.a_reply_requires_a_body" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ParticipationForumTest_a_reply_requires_a_body - 2019.03.20 at 12h 54m 50s.xml">
+      <configuration name="ParticipationForumTest.a_reply_requires_a_body" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ParticipationForumTest_a_reply_requires_a_body - 2019.03.20 at 12h 55m 21s.xml">
+      <configuration name="ParticipationForumTest.a_reply_requires_a_body" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ParticipationForumTest_a_reply_requires_a_body - 2019.03.20 at 12h 55m 39s.xml">
+      <configuration name="ParticipationForumTest.a_reply_requires_a_body" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="forumTests - 2019.03.20 at 12h 56m 52s.xml">
+      <configuration name="forumTests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49264000" />
+    <option name="totallyTimeSpent" value="52238000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="13" />
@@ -675,7 +652,7 @@
       <window_info anchor="right" id="Mongo Explorer" order="1" />
       <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49731472" weight="0.30464327" />
       <window_info anchor="right" id="Remote Host" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49823943" weight="0.17024705" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.49823943" visible="true" weight="0.17024705" />
       <window_info anchor="right" id="ReST Console" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Tail" order="0" />
@@ -684,46 +661,16 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.3991131" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="4" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="8" />
       <window_info id="Gulp" order="1" sideWeight="0.5007899" side_tool="true" weight="0.112660944" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.3290398" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32975295" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="bottom" id="Tail" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info id="npm" order="0" sideWeight="0.50176054" side_tool="true" weight="0.17024705" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49946293" visible="true" weight="0.3691959" />
-      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49823943" weight="0.17024705" />
-      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.496614" weight="0.3248337" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Regex Tester" order="3" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.3991131" />
-      <window_info id="Gulp" order="1" sideWeight="0.5007899" side_tool="true" weight="0.112660944" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3290398" />
-      <window_info anchor="right" id="Mongo Explorer" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5026853" side_tool="true" weight="0.31257078" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="right" id="ReST Console" order="0" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49731472" weight="0.30464327" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32975295" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -773,7 +720,7 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -953,13 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/thread/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/thread/view.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1002,13 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Thread.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="543">
@@ -1034,9 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="e#30#46#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1047,13 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="45" column="82" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Validation/Validator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -1061,36 +984,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/ThreadTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="e#33#49#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="40" column="46" lean-forward="true" selection-start-line="40" selection-start-column="46" selection-end-line="41" selection-end-column="41" />
-          <folding>
-            <element signature="e#40#56#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/CreateThreadTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="2632">
           <caret line="99" column="41" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
           <folding>
             <element signature="e#33#48#0#PHP" expanded="true" />
@@ -1098,10 +994,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1316">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReplyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Thread.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/ParticipationForumTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        <state relative-caret-position="158">
+          <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -1112,13 +1029,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReplyController.php">
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ThreadTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="438">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="e#33#49#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="41" selection-end-column="41" />
           <folding>
             <element signature="e#40#56#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/thread/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="41" column="85" selection-start-line="41" selection-start-column="85" selection-end-line="41" selection-end-column="85" />
         </state>
       </provider>
     </entry>
