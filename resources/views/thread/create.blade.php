@@ -20,7 +20,7 @@
                 <div class="form-group">
                     <select class="form-control" name="channel_id" id="catid">
                         <option value="0" disabled selected="selected">--Select a Channel--</option>
-                        @foreach(\App\Channel::all() as $channel)
+                        @foreach($channels as $channel)
                             <option value="{{$channel->id}}" {{(old('channel_id') == $channel->id) ? 'selected' : ''}}>{{$channel->name}}</option>
                         @endforeach
                     </select>
