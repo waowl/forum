@@ -5,6 +5,7 @@ namespace Tests\Feature;
 use App\Channel;
 use App\Reply;
 use App\Thread;
+use App\User;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
 
@@ -65,9 +66,18 @@ class ThreadTest extends TestCase
         $threadIn = create(Thread::class, ['channel_id' => $channel->id]);
         $threadNotIn = create(Thread::class);
 
-        $this->get("/thread/{$channel->slug}")
-            ->assertSee($threadIn->title)
-            ->assertDontSee($threadNotIn->title);
+        $this->get("/thread/{$channel->slug}")->assertSee($threadIn->title)->assertDontSee($threadNotIn->title);
+    }
+
+    /** @test */
+    public function a_user_can_read_thread_created_by_concrete_user()
+    {
+        $user = create(User::class, ['name'=> 'John']);
+
+        $this->signIn($user);
+        $thread = create(Thread::class, ['user_id' => $user->id, 'channel_id' => 1]);
+        $this->get('/thread?by=John')
+            ->assertSee($thread->title);
 
     }
 }
