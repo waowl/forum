@@ -45,6 +45,8 @@
                             @if(auth()->check())
                                 <a href="/thread?by={{auth()->user()->name}}" class="dropdown-item">My Threads</a>
                             @endif
+                            <a href="/thread?popularity=1" class="dropdown-item">Popular Threads</a>
+
                         </div>
                     </li>
 

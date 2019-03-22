@@ -16,7 +16,7 @@ class ThreadTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-        $this->thread = factory(Thread::class)->create();
+        $this->thread = create(Thread::class);
 
     }
 
@@ -47,7 +47,7 @@ class ThreadTest extends TestCase
      * @test
      *
      * */
-    public function user_can_see_a_reply_that_assosiated_with_a_thread()
+    public function user_can_see_a_reply_that_asosiated_with_a_thread()
     {
         $reply = factory(Reply::class)->create(['thread_id' => $this->thread->id]);
 
@@ -78,6 +78,20 @@ class ThreadTest extends TestCase
         $thread = create(Thread::class, ['user_id' => $user->id, 'channel_id' => 1]);
         $this->get('/thread?by=John')
             ->assertSee($thread->title);
+
+    }
+
+    /** @test */
+    public function a_user_can_filter_threads_by_popularity()
+    {
+        $threadWithThreeReplies = create(Thread::class);
+        $threadWithTwoReplies = create(Thread::class);
+         create(Reply::class,['thread_id'=> $threadWithThreeReplies->id], 3);
+        create(Reply::class,['thread_id'=> $threadWithTwoReplies->id], 2);
+
+        $response = $this->getJson('/thread?popularity=1')->json();
+
+        $this->assertEquals([3, 2, 0],array_column($response, 'replies_count') );
 
     }
 }

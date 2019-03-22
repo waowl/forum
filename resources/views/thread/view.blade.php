@@ -18,7 +18,8 @@
                 <form action="{{$thread->path()}}/reply" method="post" class="form">
                     {{csrf_field()}}
                     <div class="form-group">
-                        <textarea name="body" id="body "cols="30" rows="6" class="form-control " placeholder="Leave your comment here ..."></textarea>
+                        <textarea name="body" id="body " cols="30" rows="6" class="form-control "
+                                  placeholder="Leave your comment here ..."></textarea>
                     </div>
                     <button type="submit" class="btn btn-outline-primary">Save</button>
                 </form>
@@ -38,7 +39,8 @@
                     Thread Info
                 </div>
                 <div class="card-body">
-                    Thread was created {{$thread->created_at->diffForHumans()}} by <a href="">{{$thread->creator->name}}</a>
+                    Thread was created {{$thread->created_at->diffForHumans()}} by <a
+                        href="">{{$thread->creator->name}}</a>
                     and currently has {{$thread->replies_count}} {{\Str::plural('replies', $thread->replies_count)}}
                 </div>
             </div>
