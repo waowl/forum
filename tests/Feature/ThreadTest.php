@@ -94,4 +94,6 @@ class ThreadTest extends TestCase
         $this->assertEquals([3, 2, 0],array_column($response, 'replies_count') );
 
     }
+
+
 }
