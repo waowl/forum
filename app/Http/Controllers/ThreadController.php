@@ -21,7 +21,7 @@ class ThreadController extends Controller
         if ($channel->threads()->exists()) {
             $threads = $channel->threads()->latest();
         }
-        $threads = $threads->get();
+        $threads = $threads->with('channel')->get();
 
         if (\request()->wantsJson()) {
             return $threads;
@@ -31,7 +31,8 @@ class ThreadController extends Controller
 
     public function view(Channel $channel, Thread $thread)
     {
-        $replies = $thread->replies()->paginate(2);
+
+        $replies = $thread->replies()->with('owner')->paginate(2);
         return view('thread.view', compact('thread', 'replies'));
     }
 

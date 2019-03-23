@@ -3,10 +3,14 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use App\Traits\Favoritable;
 
 class Reply extends Model
 {
+    use Favoritable;
+
     protected $guarded = [];
+    protected $with = ['owner', 'favorites'];
 
     public function thread()
     {
@@ -18,20 +22,4 @@ class Reply extends Model
         return $this->belongsTo(User::class, 'user_id');
     }
 
-    public function favorites()
-    {
-        return $this->morphMany(Favorite::class, 'favorited');
-    }
-
-    public function favorite()
-    {
-        if (!$this->favorites()->where(['user_id' => auth()->id()])->exists()){
-            $this->favorites()->create(['user_id' => auth()->id()]);
-        }
-    }
-
-    public function isFavorited()
-    {
-        return $this->favorites()->where(['user_id' => auth()->id()])->exists();
-    }
 }

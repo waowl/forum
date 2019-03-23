@@ -5,7 +5,7 @@
         </div>
         <form method="post" action="/reply/{{$reply->id}}/favorite" class="form">
             @csrf
-            <button class="btn btn-link" type="submit"><i class="{{$reply->isFavorited() ? 'fas fa-heart text-danger' : 'far fa-heart text-danger'}}"></i> {{$reply->favorites()->count()}}</button>
+            <button class="btn btn-link" type="submit"><i class="{{$reply->isFavorited() ? 'fas fa-heart text-danger' : 'far fa-heart text-danger'}}"></i> {{$reply->favorites_count}}</button>
         </form>
     </div>
     <div class="card-body">
