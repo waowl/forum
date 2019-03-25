@@ -76,4 +76,31 @@ class ThreadTest extends TestCase
 
         $this->assertInstanceOf(User::class, $thread->creator);
     }
+
+    /** @test */
+    public function a_user_can_delete_a_thread()
+    {
+        $user = create(User::class);
+        $this->signIn($user);
+        $thread = create(Thread::class);
+        $reply = create(Reply::class, ['thread_id' => $thread->id]);
+
+        $this->json('DELETE', $thread->path());
+        $this->assertDatabaseMissing('threads', ['id' => $thread->id]);
+        $this->assertDatabaseMissing('replies', ['id' => $reply->id]);
+    }
+
+    /** @test */
+    public function a_guest_cant_delete_a_thread()
+    {
+        $thread = create(Thread::class);
+
+        $this->delete($thread->path())->assertRedirect('/login');
+    }
+
+    /** @test */
+    public function a_thread_may_be_deleted_only_by_creator()
+    {
+
+    }
 }

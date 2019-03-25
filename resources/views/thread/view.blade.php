@@ -4,10 +4,17 @@
     <div class="row">
         <div class="col-md-8">
             <div class="card mb-2">
-                <div class="card-header">
+                <div class="card-header d-flex flex-row justify-content-between">
                     <h4>
                         <a href="/profiles/{{$thread->creator->name}}">{{$thread->creator->name}}</a> posted {{$thread->title}}
                     </h4>
+                    <span>
+                        <form action="{{$thread->path()}}" method="post">
+                            @method('delete')
+                            @csrf
+                            <button type="submit" class="btn btn-link text-danger">Delete</button>
+                        </form>
+                    </span>
                 </div>
                 <div class="card-body">
                     {{$thread->body}}

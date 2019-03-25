@@ -58,4 +58,9 @@ class ThreadController extends Controller
         return redirect($thread->path());
     }
 
+    public function destroy($channel, Thread $thread)
+    {
+            $thread->delete();
+            return redirect("/thread");
+    }
 }
