@@ -82,10 +82,10 @@ class ThreadTest extends TestCase
     {
         $user = create(User::class);
         $this->signIn($user);
-        $thread = create(Thread::class);
+        $thread = create(Thread::class, ['user_id' => $user->id]);
         $reply = create(Reply::class, ['thread_id' => $thread->id]);
 
-        $this->json('DELETE', $thread->path());
+        $this->delete($thread->path());
         $this->assertDatabaseMissing('threads', ['id' => $thread->id]);
         $this->assertDatabaseMissing('replies', ['id' => $reply->id]);
     }
