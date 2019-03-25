@@ -6,7 +6,8 @@
             <div class="card mb-2">
                 <div class="card-header d-flex flex-row justify-content-between">
                     <h4>
-                        <a href="/profiles/{{$thread->creator->name}}">{{$thread->creator->name}}</a> posted {{$thread->title}}
+                        <a href="/profiles/{{$thread->creator->name}}">{{$thread->creator->name}}</a>
+                        posted {{$thread->title}}
                     </h4>
                     <span>
                         <form action="{{$thread->path()}}" method="post">
@@ -15,6 +16,9 @@
                             <button type="submit" class="btn btn-link text-danger">Delete</button>
                         </form>
                     </span>
+                    @can('update', $thread)
+
+                    @endcan
                 </div>
                 <div class="card-body">
                     {{$thread->body}}

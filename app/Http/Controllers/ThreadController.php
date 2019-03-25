@@ -60,7 +60,8 @@ class ThreadController extends Controller
 
     public function destroy($channel, Thread $thread)
     {
-            $thread->delete();
-            return redirect("/thread");
+        $this->authorize('update', $thread);
+        $thread->delete();
+        return redirect("/thread");
     }
 }

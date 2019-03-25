@@ -98,9 +98,4 @@ class ThreadTest extends TestCase
         $this->delete($thread->path())->assertRedirect('/login');
     }
 
-    /** @test */
-    public function a_thread_may_be_deleted_only_by_creator()
-    {
-
-    }
 }
