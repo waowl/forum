@@ -1,7 +1,7 @@
 <div class="card mt-2">
     <div class="card-header d-flex flex-row justify-content-between">
         <div>
-            <a href=""> {{$reply->owner->name}}</a> said  {{$reply->created_at->diffForHumans()}}s
+            <a href="/profiles/ {{$reply->owner->name}}"> {{$reply->owner->name}}</a> said  {{$reply->created_at->diffForHumans()}}s
         </div>
         <form method="post" action="/reply/{{$reply->id}}/favorite" class="form">
             @csrf
