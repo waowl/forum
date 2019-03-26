@@ -17,7 +17,7 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
-                   aria-controls="pills-profile" aria-selected="false">Profile</a>
+                   aria-controls="pills-profile" aria-selected="false">Activities</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
@@ -29,11 +29,11 @@
                 @foreach($threads as $thread)
                     <div class="card mb-2">
                         <div class="card-header d-flex flex-row justify-content-between">
-                                 <h4>
-                                    {{$user->name}} posted:  <a href="/thread/{{$thread->channel->slug}}/{{$thread->id}}">
-                                         {{$thread->title}}
-                                     </a>
-                                 </h4>
+                            <h4>
+                                {{$user->name}} posted: <a href="/thread/{{$thread->channel->slug}}/{{$thread->id}}">
+                                    {{$thread->title}}
+                                </a>
+                            </h4>
                             <span>
                                 {{$thread->created_at->diffForHumans()}}
                             </span>
@@ -45,7 +45,14 @@
                 @endforeach
                 {{$threads->links()}}
             </div>
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">2</div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                @foreach($activities as $date => $activityCollection)
+                    <h5 class="page-header">{{$date}}</h5>
+                    @foreach($activityCollection as $activity)
+                        @include("profile.activities.{$activity->type}")
+                    @endforeach
+                @endforeach
+            </div>
             <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">3</div>
         </div>
     </div>

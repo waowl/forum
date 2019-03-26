@@ -1,4 +1,4 @@
-<div class="card mt-2">
+<div class="card mt-2" id="reply{{$reply->id}}">
     <div class="card-header d-flex flex-row justify-content-between">
         <div>
             <a href="/profiles/ {{$reply->owner->name}}"> {{$reply->owner->name}}</a> said  {{$reply->created_at->diffForHumans()}}s

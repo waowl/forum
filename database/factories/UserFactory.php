@@ -48,6 +48,7 @@ $factory->define(\App\Channel::class, function (Faker $faker) {
     ];
 });
 
+
 $factory->define(\App\Reply::class, function (Faker $faker) {
     return [
         'user_id' => function () {
@@ -59,3 +60,6 @@ $factory->define(\App\Reply::class, function (Faker $faker) {
         'body' => $faker->paragraph,
     ];
 });
+
+
+

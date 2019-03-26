@@ -2,10 +2,12 @@
 
 namespace App;
 
+use App\Traits\RecordActivity;
 use Illuminate\Database\Eloquent\Model;
 
 class Thread extends Model
 {
+    use RecordActivity;
 
     protected static function boot()
     {
@@ -16,8 +18,9 @@ class Thread extends Model
         });
 
         static::deleting(function ($thread) {
-            $thread->replies()->delete();
+            $thread->replies->each->delete();
         });
+
     }
 
     protected $guarded = [];
@@ -52,4 +55,5 @@ class Thread extends Model
     {
         return $filters->apply($query);
     }
+
 }
