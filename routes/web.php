@@ -28,3 +28,4 @@ Route::delete('/thread/{channel}/{thread}','ThreadController@destroy');
 Route::post('/thread/{channel}/{thread}/reply','ReplyController@create');
 Route::post('/reply/{reply}/favorite','FavoriteController@store');
 Route::get('/profiles/{user}', 'ProfileController@show');
+Route::delete('/reply/{reply}', 'ReplyController@destroy');
