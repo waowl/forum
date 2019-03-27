@@ -55,7 +55,7 @@ class ThreadController extends Controller
             'body' => \request('body')
         ]);
 
-        return redirect($thread->path());
+        return redirect($thread->path())->with('flash', 'Thread created!');
     }
 
     public function destroy($channel, Thread $thread)
