@@ -29,3 +29,4 @@ Route::post('/thread/{channel}/{thread}/reply','ReplyController@create');
 Route::post('/reply/{reply}/favorite','FavoriteController@store');
 Route::get('/profiles/{user}', 'ProfileController@show');
 Route::delete('/reply/{reply}', 'ReplyController@destroy');
+Route::patch('/reply/{reply}', 'ReplyController@update');
