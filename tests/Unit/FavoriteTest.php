@@ -31,7 +31,7 @@ class FavoriteTest extends TestCase
     }
 
     /** @test */
-    public function a_user_may_favorite_any_reply_only_once()
+    public function a_user_may_favorite_any_reply()
     {
         $this->withoutExceptionHandling();
 
@@ -39,8 +39,23 @@ class FavoriteTest extends TestCase
         $reply = create(Reply::class);
 
         $this->post("/reply/{$reply->id}/favorite");
+
+        $this->assertDatabaseHas('favorites', ['favorited_id' => $reply->id]);
+    }
+
+    /** @test */
+    public function a_user_may_unfavorite_any_reply()
+    {
+        $this->withoutExceptionHandling();
+
+        $this->signIn(create(User::class));
+        $reply = create(Reply::class);
+
         $this->post("/reply/{$reply->id}/favorite");
 
-        $this->assertCount(1, $reply->favorites);
+        $this->assertDatabaseHas('favorites', ['favorited_id' => $reply->id]);
+
+        $this->delete("/reply/{$reply->id}/favorite");
+        $this->assertDatabaseMissing('favorites', ['favorited_id' => $reply->id]);
     }
 }

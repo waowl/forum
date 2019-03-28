@@ -10,6 +10,7 @@ class Reply extends Model
 {
     use Favoritable, RecordActivity;
 
+    protected $appends = ['isFavorited'];
     protected $guarded = [];
     protected $with = ['owner', 'favorites'];
 
@@ -26,5 +27,10 @@ class Reply extends Model
     public function path()
     {
         return $this->thread->path() .'#reply' . $this->id;
+    }
+
+    public function getIsFavoritedAttribute()
+    {
+        return $this->isFavorited();
     }
 }

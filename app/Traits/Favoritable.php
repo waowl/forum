@@ -16,13 +16,17 @@ trait Favoritable
 
     public function favorite()
     {
-        if (!$this->favorites()->where(['user_id' => auth()->id()])->exists()) {
-            $this->favorites()->create(['user_id' => auth()->id()]);
-        }
+
+        $this->favorites()->create(['user_id' => auth()->id()]);
+    }
+
+    public function unfavorite()
+    {
+        $this->favorites()->delete(['user_id' => auth()->id()]);
     }
 
     public function isFavorited()
     {
-        return !!$this->favorites->where(['user_id' => auth()->id()])->count();
+        return !!$this->favorites()->where(['user_id' => auth()->id()])->count();
     }
 }
