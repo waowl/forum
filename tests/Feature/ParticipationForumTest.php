@@ -78,4 +78,18 @@ class ParticipationForumTest extends TestCase
 
     }
 
+    /** @test */
+    public function an_authorized_user_can_update_a_reply()
+    {
+        $this->signIn();
+
+        $reply = create(Reply::class, ['user_id' => auth()->id()]);
+
+        $this->patch("/reply/{$reply->id}", ['body' => 'Hi']);
+
+        $this->assertDatabaseHas('replies', ['body' => 'Hi']);
+
+    }
+
+
 }
