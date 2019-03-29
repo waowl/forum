@@ -1,6 +1,6 @@
 <template>
     <button class="btn btn-link" type="submit" @click="toggle"><i
-        :class="isFavorited ? 'fas fa-heart text-danger' : 'far fa-heart text-danger' "></i> {{count}}
+        :class="isFavorited ? 'fas fa-heart text-danger' : 'far fa-heart text-danger' "></i>  <span v-text="count"></span>
     </button>
 </template>
 
@@ -9,7 +9,7 @@
         props: ['reply'],
         data () {
             return {
-                count: this.reply.favorites_count,
+                count: this.reply.favorites_count ? this.reply.favorites_count  : 0,
                 isFavorited: this.reply.isFavorited
             }
         },

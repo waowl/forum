@@ -1,4 +1,5 @@
 <script>
+    import Favorite from  './Favorite'
     export default {
         props: ['attributes'],
         data () {
@@ -7,6 +8,7 @@
                 editing: false
             }
         },
+
         methods: {
             update () {
                 if (this.body) {
@@ -21,11 +23,21 @@
             destroy () {
                 axios.delete(`/reply/${this.attributes.id}`)
                     .then((res) => {
-                        $(this.$el).fadeOut(200, () => {
-                            flash(res.data.status)
-                        })
-                    })
+                        this.$emit('deleted', this.data.id)
+                        flash(res.data.status)
 
+                    })
+            }
+        },
+        computed: {
+            signedIn(){
+                return window.App.signedIn;
+            },
+            canUpdate(){
+                if( window.App.user) {
+                    return this.data.owner.id == window.App.user.id;
+                }
+                return false
             }
         }
     }

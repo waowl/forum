@@ -10,7 +10,7 @@ class Reply extends Model
 {
     use Favoritable, RecordActivity;
 
-    protected $appends = ['isFavorited'];
+    protected $appends = ['isFavorited', 'favorited_count'];
     protected $guarded = [];
     protected $with = ['owner', 'favorites'];
 
@@ -33,4 +33,10 @@ class Reply extends Model
     {
         return $this->isFavorited();
     }
+
+    public function getFavoritedCountAttribute()
+    {
+        return $this->favorites()->count();
+    }
+
 }

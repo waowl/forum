@@ -26,6 +26,12 @@
             display: none;
         }
     </style>
+    <script>
+        window.App = @json([
+            'signedIn' =>  Auth::check(),
+            'user' => Auth::user()
+        ])
+    </script>
 </head>
 <body>
 <div id="app">
