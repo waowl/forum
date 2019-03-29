@@ -5,7 +5,9 @@
                 <a href="/profiles/ {{$reply->owner->name}}"> {{$reply->owner->name}}</a>
                 said {{$reply->created_at->diffForHumans()}}s
             </div>
-            <favorite :reply="{{$reply}}"></favorite>
+            @auth
+                <favorite :reply="{{$reply}}"></favorite>
+            @endauth
         </div>
         <div class="card-body">
             <div v-if="editing">
