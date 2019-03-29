@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbc6288e-15d7-43aa-80bd-5607d51cb5a6" name="5c9df074567cea4d3c800323 Рефакторинг компонентов комментария" comment="5c9df074567cea4d3c800323 Рефакторинг компонентов комментария">
+      <change beforePath="$PROJECT_DIR$/resources/js/components/NewReply.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/NewReply.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/Reply.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Reply.vue" afterDir="false" />
     </list>
-    <list id="fc5afe30-6e1e-45d9-8f77-684ef74af0f4" name="Default" comment="migrations" />
-    <list id="5ac61f5f-ba9e-482d-b359-72faa6a73f5d" name="5c8d40fcf7b44a3a9d3fd7b1 Создать категории" comment="5c8d40fcf7b44a3a9d3fd7b1 Создать категории" />
+    <list id="846211ec-f9d1-4ce5-b9b1-0612c3f06735" name="5c8a498b690f1e0a4be71b51 Добавление треда" comment="Create Thread Test" />
+    <list id="bbb110c0-4b94-40ce-9087-fcd4e77db732" name="5c86617ec3f66e44f37ecdfc Комментарии" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="57c8ffe7-2c3a-4617-b5b1-d9ad61ce8a26" name="5c86b1d69d085c73adb73d0c CircleCI конфиг" comment="5c86b1d69d085c73adb73d0c CircleCI конфиг fix" />
     <list id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="" />
+    <list id="fc5afe30-6e1e-45d9-8f77-684ef74af0f4" name="Default" comment="migrations" />
+    <list id="5ac61f5f-ba9e-482d-b359-72faa6a73f5d" name="5c8d40fcf7b44a3a9d3fd7b1 Создать категории" comment="5c8d40fcf7b44a3a9d3fd7b1 Создать категории" />
     <list id="373be4e5-a166-488f-a99f-8ae8972038b9" name="5c9df0375d8a7a69f6fa5a34 Баг удаления активности лайка" comment="">
       <change afterPath="$PROJECT_DIR$/resources/js/components/Replies.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/js/components/Thread.vue" afterDir="false" />
@@ -16,10 +21,6 @@
       <change beforePath="$PROJECT_DIR$/resources/views/thread/reply.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/thread/reply.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/thread/view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/thread/view.blade.php" afterDir="false" />
     </list>
-    <list id="bbb110c0-4b94-40ce-9087-fcd4e77db732" name="5c86617ec3f66e44f37ecdfc Комментарии" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <list id="846211ec-f9d1-4ce5-b9b1-0612c3f06735" name="5c8a498b690f1e0a4be71b51 Добавление треда" comment="Create Thread Test" />
     <ignored path="D:\install\OpenServer\OSPanel\domains\forum\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,7 +80,7 @@
       <file leaf-file-name="Reply.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Reply.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
+            <state relative-caret-position="905">
               <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
               <folding>
                 <element signature="e#23#53#0#PHP" expanded="true" />
@@ -91,8 +92,11 @@
       <file leaf-file-name="Reply.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/components/Reply.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="140">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="e#1412#1434#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,10 +146,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Replies.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Replies.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/components/Replies.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="924">
               <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="e#231#259#0" expanded="true" />
@@ -163,11 +167,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewReply.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NewReply.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/js/components/NewReply.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+            <state relative-caret-position="136">
+              <caret line="8" column="102" selection-start-line="8" selection-start-column="102" selection-end-line="8" selection-end-column="102" />
             </state>
           </provider>
         </entry>
@@ -236,12 +240,12 @@
         <option value="$PROJECT_DIR$/resources/views/thread/view.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" />
         <option value="$PROJECT_DIR$/app/Thread.php" />
-        <option value="$PROJECT_DIR$/resources/js/components/NewReply.vue" />
         <option value="$PROJECT_DIR$/app/Reply.php" />
         <option value="$PROJECT_DIR$/resources/js/app.js" />
-        <option value="$PROJECT_DIR$/resources/js/components/Reply.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/Favorite.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/Replies.vue" />
+        <option value="$PROJECT_DIR$/resources/js/components/Reply.vue" />
+        <option value="$PROJECT_DIR$/resources/js/components/NewReply.vue" />
       </list>
     </option>
   </component>
@@ -264,12 +268,13 @@
     <file path="$PROJECT_DIR$/resources/js/components/Reply.vue">
       <ranges>
         <range start1="0" end1="0" start2="0" end2="32" changelist="373be4e5-a166-488f-a99f-8ae8972038b9" />
-        <range start1="3" end1="4" start2="35" end2="39" changelist="373be4e5-a166-488f-a99f-8ae8972038b9" />
-        <range start1="6" end1="7" start2="41" end2="43" changelist="373be4e5-a166-488f-a99f-8ae8972038b9" />
-        <range start1="14" end1="15" start2="50" end2="51" changelist="373be4e5-a166-488f-a99f-8ae8972038b9" />
-        <range start1="23" end1="24" start2="59" end2="60" changelist="373be4e5-a166-488f-a99f-8ae8972038b9" />
-        <range start1="29" end1="40" start2="65" end2="65" changelist="cbc6288e-15d7-43aa-80bd-5607d51cb5a6" />
-        <range start1="41" end1="41" start2="66" end2="77" changelist="cbc6288e-15d7-43aa-80bd-5607d51cb5a6" />
+        <range start1="1" end1="1" start2="33" end2="34" changelist="cbc6288e-15d7-43aa-80bd-5607d51cb5a6" />
+        <range start1="3" end1="4" start2="36" end2="40" changelist="373be4e5-a166-488f-a99f-8ae8972038b9" />
+        <range start1="6" end1="8" start2="42" end2="45" changelist="373be4e5-a166-488f-a99f-8ae8972038b9" />
+        <range start1="14" end1="15" start2="51" end2="52" changelist="373be4e5-a166-488f-a99f-8ae8972038b9" />
+        <range start1="23" end1="24" start2="60" end2="61" changelist="373be4e5-a166-488f-a99f-8ae8972038b9" />
+        <range start1="29" end1="40" start2="66" end2="66" changelist="cbc6288e-15d7-43aa-80bd-5607d51cb5a6" />
+        <range start1="41" end1="41" start2="67" end2="81" changelist="cbc6288e-15d7-43aa-80bd-5607d51cb5a6" />
       </ranges>
     </file>
   </component>
@@ -900,7 +905,7 @@
       <option name="number" value="25" />
       <option name="presentableId" value="5c9df074567cea4d3c800323" />
       <updated>1553859944101</updated>
-      <workItem from="1553859944622" duration="10645000" />
+      <workItem from="1553859944622" duration="11253000" />
     </task>
     <option name="localTasksCounter" value="11" />
     <option name="clearContext" value="false" />
@@ -962,10 +967,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149475000" />
+    <option name="totallyTimeSpent" value="150083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.3290398" />
@@ -1347,13 +1353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/NewReply.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReplyController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
@@ -1361,27 +1360,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Reply.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-          <folding>
-            <element signature="e#23#53#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/Reply.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
@@ -1394,11 +1376,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/components/Replies.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="924">
           <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="e#231#259#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Reply.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="905">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+          <folding>
+            <element signature="e#23#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/Reply.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#1412#1434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/NewReply.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="102" selection-start-line="8" selection-start-column="102" selection-end-line="8" selection-end-column="102" />
         </state>
       </provider>
     </entry>
