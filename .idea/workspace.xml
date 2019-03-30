@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbc6288e-15d7-43aa-80bd-5607d51cb5a6" name="5c9df074567cea4d3c800323 Рефакторинг компонентов комментария" comment="5c9df074567cea4d3c800323 Рефакторинг компонентов комментария">
-      <change beforePath="$PROJECT_DIR$/resources/js/components/NewReply.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/NewReply.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Reply.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Reply.vue" afterDir="false" />
-    </list>
+    <list id="fc5afe30-6e1e-45d9-8f77-684ef74af0f4" name="Default" comment="migrations" />
+    <list id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="" />
+    <list id="57c8ffe7-2c3a-4617-b5b1-d9ad61ce8a26" name="5c86b1d69d085c73adb73d0c CircleCI конфиг" comment="5c86b1d69d085c73adb73d0c CircleCI конфиг fix" />
+    <list default="true" id="5182148b-99e2-4833-b347-9705260071c0" name="5c9df192940d76229ecb1137 Пагинация комментариев" comment="" />
     <list id="846211ec-f9d1-4ce5-b9b1-0612c3f06735" name="5c8a498b690f1e0a4be71b51 Добавление треда" comment="Create Thread Test" />
+    <list id="5ac61f5f-ba9e-482d-b359-72faa6a73f5d" name="5c8d40fcf7b44a3a9d3fd7b1 Создать категории" comment="5c8d40fcf7b44a3a9d3fd7b1 Создать категории" />
     <list id="bbb110c0-4b94-40ce-9087-fcd4e77db732" name="5c86617ec3f66e44f37ecdfc Комментарии" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <list id="57c8ffe7-2c3a-4617-b5b1-d9ad61ce8a26" name="5c86b1d69d085c73adb73d0c CircleCI конфиг" comment="5c86b1d69d085c73adb73d0c CircleCI конфиг fix" />
-    <list id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="" />
-    <list id="fc5afe30-6e1e-45d9-8f77-684ef74af0f4" name="Default" comment="migrations" />
-    <list id="5ac61f5f-ba9e-482d-b359-72faa6a73f5d" name="5c8d40fcf7b44a3a9d3fd7b1 Создать категории" comment="5c8d40fcf7b44a3a9d3fd7b1 Создать категории" />
-    <list id="373be4e5-a166-488f-a99f-8ae8972038b9" name="5c9df0375d8a7a69f6fa5a34 Баг удаления активности лайка" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/Replies.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/Thread.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Reply.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Reply.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/thread/reply.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/thread/reply.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/thread/view.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/thread/view.blade.php" afterDir="false" />
-    </list>
+    <list id="373be4e5-a166-488f-a99f-8ae8972038b9" name="5c9df0375d8a7a69f6fa5a34 Баг удаления активности лайка" comment="" />
     <ignored path="D:\install\OpenServer\OSPanel\domains\forum\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +23,7 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/forum$forumTests.xml" NAME="forumTests Coverage Results" MODIFIED="1553348961887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/forum$forumTests.xml" NAME="forumTests Coverage Results" MODIFIED="1553951867994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -76,11 +66,11 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="Reply.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Reply.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="905">
+            <state relative-caret-position="522">
               <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
               <folding>
                 <element signature="e#23#53#0#PHP" expanded="true" />
@@ -89,41 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reply.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/Reply.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-              <folding>
-                <element signature="e#1412#1434#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Favorite.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/Favorite.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="11" column="83" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Favoritable.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Traits/Favoritable.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="392">
+              <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -131,17 +91,11 @@
       <file leaf-file-name="ReplyController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReplyController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/thread/view.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="-346">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+              <folding>
+                <element signature="e#40#56#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,10 +103,10 @@
       <file leaf-file-name="Replies.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/components/Replies.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="186">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
-                <element signature="e#231#259#0" expanded="true" />
+                <element signature="e#283#308#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -167,16 +121,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewReply.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NewReply.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/components/NewReply.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="102" selection-start-line="8" selection-start-column="102" selection-end-line="8" selection-end-column="102" />
+            <state relative-caret-position="125">
+              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Paginator.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/js/components/Paginator.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+              <folding>
+                <element signature="e#202#209#1" expanded="true" />
+                <element signature="e#684#691#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/ThreadTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParticipationForumTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/ParticipationForumTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="29" column="67" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -195,12 +187,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/resources/views/thread/index.blade.php" />
         <option value="$PROJECT_DIR$/tests/utilities/functions.php" />
         <option value="$PROJECT_DIR$/app/Filters/Filters.php" />
         <option value="$PROJECT_DIR$/app/Filters/ThreadFilters.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/ThreadTest.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_23_111222_create_favorites_table.php" />
         <option value="$PROJECT_DIR$/app/Providers/ViewServiceProvider.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ProfilesTest.php" />
@@ -229,23 +218,26 @@
         <option value="$PROJECT_DIR$/app/Policies/ReplyPolicy.php" />
         <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
         <option value="$PROJECT_DIR$/resources/js/components/Flash.vue" />
-        <option value="$PROJECT_DIR$/tests/Feature/ParticipationForumTest.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FavoriteController.php" />
         <option value="$PROJECT_DIR$/tests/Unit/FavoriteTest.php" />
         <option value="$PROJECT_DIR$/app/Traits/Favoritable.php" />
         <option value="$PROJECT_DIR$/resources/views/thread/reply.blade.php" />
         <option value="$PROJECT_DIR$/resources/js/components/Thread.vue" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/thread/view.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" />
         <option value="$PROJECT_DIR$/app/Thread.php" />
         <option value="$PROJECT_DIR$/app/Reply.php" />
-        <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/resources/js/components/Favorite.vue" />
-        <option value="$PROJECT_DIR$/resources/js/components/Replies.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/Reply.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/NewReply.vue" />
+        <option value="$PROJECT_DIR$/resources/views/thread/view.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ReplyController.php" />
+        <option value="$PROJECT_DIR$/resources/js/mixins/collection.js" />
+        <option value="$PROJECT_DIR$/resources/js/app.js" />
+        <option value="$PROJECT_DIR$/resources/js/components/Paginator.vue" />
+        <option value="$PROJECT_DIR$/resources/js/components/Replies.vue" />
+        <option value="$PROJECT_DIR$/tests/Feature/ThreadTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/ParticipationForumTest.php" />
       </list>
     </option>
   </component>
@@ -263,20 +255,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/resources/js/components/Reply.vue">
-      <ranges>
-        <range start1="0" end1="0" start2="0" end2="32" changelist="373be4e5-a166-488f-a99f-8ae8972038b9" />
-        <range start1="1" end1="1" start2="33" end2="34" changelist="cbc6288e-15d7-43aa-80bd-5607d51cb5a6" />
-        <range start1="3" end1="4" start2="36" end2="40" changelist="373be4e5-a166-488f-a99f-8ae8972038b9" />
-        <range start1="6" end1="8" start2="42" end2="45" changelist="373be4e5-a166-488f-a99f-8ae8972038b9" />
-        <range start1="14" end1="15" start2="51" end2="52" changelist="373be4e5-a166-488f-a99f-8ae8972038b9" />
-        <range start1="23" end1="24" start2="60" end2="61" changelist="373be4e5-a166-488f-a99f-8ae8972038b9" />
-        <range start1="29" end1="40" start2="66" end2="66" changelist="cbc6288e-15d7-43aa-80bd-5607d51cb5a6" />
-        <range start1="41" end1="41" start2="67" end2="81" changelist="cbc6288e-15d7-43aa-80bd-5607d51cb5a6" />
-      </ranges>
-    </file>
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
@@ -387,7 +365,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -417,14 +394,8 @@
               <item name="forum" type="b2602c69:ProjectViewProjectNode" />
               <item name="forum" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forum" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="mixins" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="forum" type="b2602c69:ProjectViewProjectNode" />
@@ -434,6 +405,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -453,19 +425,19 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="tasks.close.task.update.state.enabled" value="false" />
+    <property name="tasks.close.task.update.state.enabled" value="true" />
     <property name="tasks.open.task.update.state.enabled" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\install\OpenServer\OSPanel\domains\forum\resources\views\profile\activities" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\install\OpenServer\OSPanel\domains\forum\resources\js\components" />
       <recent name="D:\install\OpenServer\OSPanel\domains\forum\resources\views\profile\activities" />
       <recent name="D:\install\OpenServer\OSPanel\domains\forum\resources\views\profile" />
       <recent name="D:\install\OpenServer\OSPanel\domains\forum" />
       <recent name="D:\install\OpenServer\OSPanel\domains\forum\resources\views\thread" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\install\OpenServer\OSPanel\domains\forum\resources\views\profile\activities" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -481,17 +453,17 @@
     </option>
   </component>
   <component name="RunManager" selected="PHPUnit.forumTests">
-    <configuration name="FavoriteTest.a_user_may_favorite_any_reply" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Unit\FavoriteTest" file="$PROJECT_DIR$/tests/Unit/FavoriteTest.php" method="a_user_may_favorite_any_reply" scope="Method" />
-    </configuration>
     <configuration name="FavoriteTest.a_user_may_unfavorite_any_reply" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Unit\FavoriteTest" file="$PROJECT_DIR$/tests/Unit/FavoriteTest.php" method="a_user_may_unfavorite_any_reply" scope="Method" />
     </configuration>
-    <configuration name="ParticipationForumTest.an_authorized_user_can_delete_a_reply" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ParticipationForumTest" file="$PROJECT_DIR$/tests/Feature/ParticipationForumTest.php" method="an_authorized_user_can_delete_a_reply" scope="Method" />
+    <configuration name="ParticipationForumTest.an_authorized_user_may_create_a_reply" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ParticipationForumTest" file="$PROJECT_DIR$/tests/Feature/ParticipationForumTest.php" method="an_authorized_user_may_create_a_reply" scope="Method" />
     </configuration>
-    <configuration name="ParticipationForumTest.an_authorized_user_can_update_a_reply" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\Feature\ParticipationForumTest" file="$PROJECT_DIR$/tests/Feature/ParticipationForumTest.php" method="an_authorized_user_can_update_a_reply" scope="Method" />
+    <configuration name="ThreadTest.a_user_can_get_all_replies_from_given_thread" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ThreadTest" file="$PROJECT_DIR$/tests/Feature/ThreadTest.php" method="a_user_can_get_all_replies_from_given_thread" scope="Method" />
+    </configuration>
+    <configuration name="ThreadTest.user_can_see_a_reply_that_asosiated_with_a_thread" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ThreadTest" file="$PROJECT_DIR$/tests/Feature/ThreadTest.php" method="user_can_see_a_reply_that_asosiated_with_a_thread" scope="Method" />
     </configuration>
     <configuration name="forumTests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" directory="$PROJECT_DIR$/tests" use_alternative_configuration_file="true" />
@@ -507,19 +479,19 @@
     </configuration>
     <list>
       <item itemvalue="PHPUnit.forumTests" />
-      <item itemvalue="PHPUnit.ParticipationForumTest.an_authorized_user_can_delete_a_reply" />
-      <item itemvalue="PHPUnit.ParticipationForumTest.an_authorized_user_can_update_a_reply" />
-      <item itemvalue="PHPUnit.FavoriteTest.a_user_may_favorite_any_reply" />
       <item itemvalue="PHPUnit.FavoriteTest.a_user_may_unfavorite_any_reply" />
       <item itemvalue="npm.watch" />
+      <item itemvalue="PHPUnit.ThreadTest.a_user_can_get_all_replies_from_given_thread" />
+      <item itemvalue="PHPUnit.ThreadTest.user_can_see_a_reply_that_asosiated_with_a_thread" />
+      <item itemvalue="PHPUnit.ParticipationForumTest.an_authorized_user_may_create_a_reply" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.ParticipationForumTest.an_authorized_user_may_create_a_reply" />
+        <item itemvalue="PHPUnit.ThreadTest.user_can_see_a_reply_that_asosiated_with_a_thread" />
+        <item itemvalue="PHPUnit.ThreadTest.a_user_can_get_all_replies_from_given_thread" />
         <item itemvalue="npm.watch" />
         <item itemvalue="PHPUnit.FavoriteTest.a_user_may_unfavorite_any_reply" />
-        <item itemvalue="PHPUnit.FavoriteTest.a_user_may_favorite_any_reply" />
-        <item itemvalue="PHPUnit.ParticipationForumTest.an_authorized_user_can_update_a_reply" />
-        <item itemvalue="PHPUnit.ParticipationForumTest.an_authorized_user_can_delete_a_reply" />
       </list>
     </recent_temporary>
   </component>
@@ -552,7 +524,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <branch name="5c8654b6a500f18a14077c36" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/w8NwVD6O/2-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8</url>
       <option name="number" value="2" />
@@ -565,7 +537,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/3VP2Uiuo/3-%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B9-%D1%82%D0%B5%D1%81%D1%82</url>
       <option name="number" value="3" />
@@ -577,7 +549,7 @@
     </task>
     <task id="5c864f330703354255039545" summary="Создать миграции">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/RgtjjkKO/1-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D0%BC%D0%B8%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D0%B8</url>
       <option name="number" value="1" />
@@ -588,7 +560,7 @@
     <task id="5c8661730989b16d7bc873c5" summary="Связи таблиц">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/iAxUkLC2/4-%D1%81%D0%B2%D1%8F%D0%B7%D0%B8-%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86</url>
       <option name="number" value="4" />
@@ -602,7 +574,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="57c8ffe7-2c3a-4617-b5b1-d9ad61ce8a26" name="5c86b1d69d085c73adb73d0c CircleCI конфиг" comment="" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/EFpCBjjw/6-circleci-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3</url>
       <option name="number" value="6" />
@@ -630,7 +602,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="bbb110c0-4b94-40ce-9087-fcd4e77db732" name="5c86617ec3f66e44f37ecdfc Комментарии" comment="" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/0BZp99Cy/5-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B8</url>
       <option name="number" value="5" />
@@ -644,7 +616,7 @@
     <task id="5c8810ca2870d4833ff5be73" summary="Форма комментария">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/t6Bk4wi5/7-%D1%84%D0%BE%D1%80%D0%BC%D0%B0-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D1%8F</url>
       <option name="number" value="7" />
@@ -655,7 +627,7 @@
     <task id="5c8a42d3dd45be057ac67d25" summary="Меню">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/en6QDPTx/8-%D0%BC%D0%B5%D0%BD%D1%8E</url>
       <option name="number" value="8" />
@@ -667,7 +639,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="846211ec-f9d1-4ce5-b9b1-0612c3f06735" name="5c8a498b690f1e0a4be71b51 Добавление треда" comment="" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/DtFqino0/9-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%82%D1%80%D0%B5%D0%B4%D0%B0</url>
       <option name="number" value="9" />
@@ -690,7 +662,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="5ac61f5f-ba9e-482d-b359-72faa6a73f5d" name="5c8d40fcf7b44a3a9d3fd7b1 Создать категории" comment="" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/lPv3sjpE/10-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B8</url>
       <option name="number" value="10" />
@@ -701,7 +673,7 @@
     <task id="5c91e9aff8c86d80475d7f88" summary="Фильтрация по каналам">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/L6dZXkSS/11-%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0%D0%BC</url>
       <option name="number" value="11" />
@@ -715,7 +687,7 @@
     <task id="5c94cce76314103b344ac802" summary="Рефакторинг фильтрации">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/oNadGFKX/12-%D1%80%D0%B5%D1%84%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3-%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8</url>
       <option name="number" value="12" />
@@ -726,7 +698,7 @@
     <task id="5c94ef2eb6aa118d7c005c74" summary="Фильтрация по популярности">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/LIUNsu22/13-%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%BF%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D0%BE%D1%81%D1%82%D0%B8</url>
       <option name="number" value="13" />
@@ -741,7 +713,7 @@
     <task id="5c94ef51a46c9f74ab739de2" summary="Функциональность лайка">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/idm869dJ/14-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%BB%D0%B0%D0%B9%D0%BA%D0%B0</url>
       <option name="number" value="14" />
@@ -760,7 +732,7 @@
     <task id="5c97ed78b12de77b639e47aa" summary="Профили юзеров">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/R0p266qO/16-%D0%BF%D1%80%D0%BE%D1%84%D0%B8%D0%BB%D0%B8-%D1%8E%D0%B7%D0%B5%D1%80%D0%BE%D0%B2</url>
       <option name="number" value="16" />
@@ -796,7 +768,7 @@
     <task id="5c97edd323c8c45560c77420" summary="Активность юзеров">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/kmn0JqNN/17-%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D1%8E%D0%B7%D0%B5%D1%80%D0%BE%D0%B2</url>
       <option name="number" value="17" />
@@ -808,7 +780,7 @@
     <task id="5c9b171d8a69bc48311f5049" summary="Флеш-сообщения">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/bRrmbzfk/18-%D1%84%D0%BB%D0%B5%D1%88-%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D1%8F</url>
       <option name="number" value="18" />
@@ -819,7 +791,7 @@
     <task id="5c9b85feef791c7178e260a5" summary="Добавить лайки в ленту активности">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/w1oNO1HH/19-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-%D0%BB%D0%B0%D0%B9%D0%BA%D0%B8-%D0%B2-%D0%BB%D0%B5%D0%BD%D1%82%D1%83-%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D0%B8</url>
       <option name="number" value="19" />
@@ -830,7 +802,7 @@
     <task id="5c9b86133fca16781f0bd728" summary="Удаление комментариев">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/j19c8pS0/20-%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B5%D0%B2</url>
       <option name="number" value="20" />
@@ -844,7 +816,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/OeRqwn53/21-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D1%8F</url>
       <option name="number" value="21" />
@@ -855,7 +827,7 @@
     </task>
     <task id="5c9cbcc36fcaf011d340ee2b" summary="Cкрыть кнопку удаления треда">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/W00jJDJZ/23-c%D0%BA%D1%80%D1%8B%D1%82%D1%8C-%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D1%83-%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D1%82%D1%80%D0%B5%D0%B4%D0%B0</url>
       <option name="number" value="23" />
@@ -873,8 +845,7 @@
     <task id="5c9cbb26fffbd01b1c1e21cb" summary="Компонент лайка">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <changelist id="" name="5c9cbb26fffbd01b1c1e21cb Компонент лайка" comment="" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/Ivw5thw0/22-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82-%D0%BB%D0%B0%D0%B9%D0%BA%D0%B0</url>
       <option name="number" value="22" />
@@ -888,7 +859,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="373be4e5-a166-488f-a99f-8ae8972038b9" name="5c9df0375d8a7a69f6fa5a34 Баг удаления активности лайка" comment="" />
-      <created>1553874994476</created>
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/90H6MpPo/24-%D0%B1%D0%B0%D0%B3-%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%BB%D0%B0%D0%B9%D0%BA%D0%B0</url>
       <option name="number" value="24" />
@@ -896,16 +867,29 @@
       <updated>1553859944099</updated>
       <workItem from="1553854778728" duration="5145000" />
     </task>
-    <task active="true" id="5c9df074567cea4d3c800323" summary="Рефакторинг компонентов комментария">
+    <task id="5c9df074567cea4d3c800323" summary="Рефакторинг компонентов комментария">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
-      <changelist id="cbc6288e-15d7-43aa-80bd-5607d51cb5a6" name="5c9df074567cea4d3c800323 Рефакторинг компонентов комментария" comment="" />
-      <created>1553874994476</created>
+      <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
+      <changelist id="" name="5c9df074567cea4d3c800323 Рефакторинг компонентов комментария" comment="" />
+      <created>1553951612470</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/BrMIZliK/25-%D1%80%D0%B5%D1%84%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D1%8F</url>
       <option name="number" value="25" />
       <option name="presentableId" value="5c9df074567cea4d3c800323" />
-      <updated>1553859944101</updated>
-      <workItem from="1553859944622" duration="11253000" />
+      <updated>1553942614266</updated>
+      <workItem from="1553859944622" duration="11975000" />
+      <workItem from="1553942349080" duration="259000" />
+    </task>
+    <task active="true" id="5c9df192940d76229ecb1137" summary="Пагинация комментариев">
+      <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
+      <changelist id="5182148b-99e2-4833-b347-9705260071c0" name="5c9df192940d76229ecb1137 Пагинация комментариев" comment="" />
+      <created>1553951612470</created>
+      <option name="issue" value="true" />
+      <url>https://trello.com/c/Xvp05oY6/26-%D0%BF%D0%B0%D0%B3%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B5%D0%B2</url>
+      <option name="number" value="26" />
+      <option name="presentableId" value="5c9df192940d76229ecb1137" />
+      <updated>1553948812917</updated>
+      <workItem from="1553942614539" duration="6808000" />
     </task>
     <option name="localTasksCounter" value="11" />
     <option name="clearContext" value="false" />
@@ -935,56 +919,55 @@
     </servers>
   </component>
   <component name="TestHistory">
-    <history-entry file="ParticipationForumTest_an_authorized_user_can_update_a_reply - 2019.03.28 at 17h 59m 29s.xml">
-      <configuration name="ParticipationForumTest.an_authorized_user_can_update_a_reply" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ThreadTest_a_user_can_get_all_replies_from_given_thread - 2019.03.30 at 14h 21m 24s.xml">
+      <configuration name="ThreadTest.a_user_can_get_all_replies_from_given_thread" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="forumTests - 2019.03.28 at 17h 59m 43s.xml">
+    <history-entry file="ThreadTest_a_user_can_get_all_replies_from_given_thread - 2019.03.30 at 14h 21m 40s.xml">
+      <configuration name="ThreadTest.a_user_can_get_all_replies_from_given_thread" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="forumTests - 2019.03.30 at 15h 17m 09s.xml">
       <configuration name="forumTests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="forumTests - 2019.03.28 at 19h 28m 20s.xml">
+    <history-entry file="forumTests - 2019.03.30 at 15h 18m 30s.xml">
       <configuration name="forumTests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="FavoriteTest_a_user_may_favorite_any_reply - 2019.03.28 at 19h 29m 32s.xml">
-      <configuration name="FavoriteTest.a_user_may_favorite_any_reply" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="ThreadTest_user_can_see_a_reply_that_asosiated_with_a_thread - 2019.03.30 at 15h 18m 58s.xml">
+      <configuration name="ThreadTest.user_can_see_a_reply_that_asosiated_with_a_thread" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="FavoriteTest_a_user_may_favorite_any_reply - 2019.03.28 at 19h 30m 37s.xml">
-      <configuration name="FavoriteTest.a_user_may_favorite_any_reply" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="FavoriteTest_a_user_may_favorite_any_reply - 2019.03.28 at 19h 30m 51s.xml">
-      <configuration name="FavoriteTest.a_user_may_favorite_any_reply" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="FavoriteTest_a_user_may_favorite_any_reply - 2019.03.28 at 19h 31m 14s.xml">
-      <configuration name="FavoriteTest.a_user_may_favorite_any_reply" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="FavoriteTest_a_user_may_unfavorite_any_reply - 2019.03.28 at 19h 32m 28s.xml">
-      <configuration name="FavoriteTest.a_user_may_unfavorite_any_reply" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="forumTests - 2019.03.28 at 19h 32m 42s.xml">
+    <history-entry file="forumTests - 2019.03.30 at 15h 21m 14s.xml">
       <configuration name="forumTests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="forumTests - 2019.03.29 at 18h 05m 14s.xml">
+    <history-entry file="ThreadTest_user_can_see_a_reply_that_asosiated_with_a_thread - 2019.03.30 at 15h 23m 40s.xml">
+      <configuration name="ThreadTest.user_can_see_a_reply_that_asosiated_with_a_thread" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="forumTests - 2019.03.30 at 15h 23m 57s.xml">
+      <configuration name="forumTests" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ParticipationForumTest_an_authorized_user_may_create_a_reply - 2019.03.30 at 15h 26m 39s.xml">
+      <configuration name="ParticipationForumTest.an_authorized_user_may_create_a_reply" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="forumTests - 2019.03.30 at 15h 26m 54s.xml">
       <configuration name="forumTests" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150083000" />
+    <option name="totallyTimeSpent" value="157872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3290398" />
       <window_info anchor="bottom" id="Regex Tester" order="3" weight="0.3295583" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5021482" side_tool="true" weight="0.36141908" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.496614" weight="0.32150775" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49785176" weight="0.4767184" />
-      <window_info id="npm" order="0" sideWeight="0.50635594" side_tool="true" weight="0.107948445" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49785176" weight="0.47565117" />
+      <window_info id="npm" order="0" sideWeight="0.5084938" side_tool="true" weight="0.107948445" />
       <window_info anchor="right" id="Mongo Explorer" order="1" weight="0.30812642" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="6" sideWeight="0.49731472" visible="true" weight="0.3248337" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49731472" weight="0.34256056" />
       <window_info anchor="right" id="Remote Host" order="2" weight="0.32975295" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49364406" visible="true" weight="0.107948445" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49150622" visible="true" weight="0.107948445" />
       <window_info anchor="right" id="ReST Console" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Tail" order="0" />
@@ -993,15 +976,16 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.398641" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
       <window_info anchor="right" id="Commander" order="4" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3292683" />
       <window_info id="Gulp" order="1" sideWeight="0.5007899" side_tool="true" weight="0.112660944" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3290398" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32975295" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1052,24 +1036,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="26" />
+      <option name="time" value="31" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://ab2351f0-708a-4f29-90af-2d12b17ccc77/schema/forum/table/threads">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Policies/ThreadPolicy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1176">
@@ -1123,13 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/ThreadTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
@@ -1228,13 +1191,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/ParticipationForumTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1270,13 +1226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="29" column="67" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FavoriteController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
@@ -1307,7 +1256,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Traits/Favoritable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="392">
           <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
         </state>
       </provider>
@@ -1329,13 +1278,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/thread/view.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Thread.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
@@ -1343,6 +1285,51 @@
           <folding>
             <element signature="e#23#53#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/Favorite.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="83" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/thread/view.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="27" column="107" lean-forward="true" selection-start-line="27" selection-start-column="107" selection-end-line="27" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/Reply.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Reply.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+          <folding>
+            <element signature="e#23#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/NewReply.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1355,59 +1342,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReplyController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        <state relative-caret-position="-346">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/mixins/collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="392">
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/Favorite.vue">
+    <entry file="file://$PROJECT_DIR$/resources/js/components/Paginator.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="11" column="83" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="83" />
+        <state relative-caret-position="158">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#202#209#1" expanded="true" />
+            <element signature="e#684#691#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/components/Replies.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="186">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
-            <element signature="e#231#259#0" expanded="true" />
+            <element signature="e#283#308#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Reply.php">
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ThreadTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="905">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-          <folding>
-            <element signature="e#23#53#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="239">
+          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/Reply.vue">
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ParticipationForumTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#1412#1434#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/NewReply.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="102" selection-start-line="8" selection-start-column="102" selection-end-line="8" selection-end-column="102" />
+        <state relative-caret-position="280">
+          <caret line="29" column="67" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
         </state>
       </provider>
     </entry>
