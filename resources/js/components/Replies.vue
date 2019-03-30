@@ -4,32 +4,43 @@
         <div v-for="(reply, index) in items" :key="reply.id">
             <reply :data="reply" @deleted="remove(index)" ></reply>
         </div>
+        <paginator :dataSet="dataSet" @updated="fetch"></paginator>
     </div>
 </template>
 
 <script>
+    import collection from '../mixins/collection'
     import Reply from './Reply'
     import NewReply from './NewReply'
     export  default {
+        mixins: [collection],
         components: {
             Reply,
             NewReply
         },
-        props: ['data', 'thread_path'],
+        props: ['thread_path'],
         data () {
             return {
-                items: this.data,
+                dataSet: [],
                 path: this.thread_path
             }
         },
         methods: {
-            remove(index){
-                this.items.splice(index, 1);
-                this.$emit('removed');
+
+            fetch(page) {
+                axios.get(this.url(page))
+                    .then(res => {
+                        this.dataSet = res.data;
+                        this.items = res.data.data;
+                    })
             },
-            addNew(reply) {
-                this.items.push(reply)
+            url(page = 1) {
+                return this.path + '/reply?page=' + page
             }
+        },
+        created() {
+            this.fetch()
         }
+
     }
 </script>

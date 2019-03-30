@@ -26,7 +26,8 @@ class ParticipationForumTest extends TestCase
         $reply = factory(Reply::class)->make();
 
         $this->post($thread->path() . '/reply', $reply->toArray());
-        $this->get($thread->path())->assertSee($reply->body);
+
+        $this->assertDatabaseHas('replies', ['body' => $reply->body]);
 
     }
 

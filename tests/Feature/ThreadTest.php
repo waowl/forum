@@ -51,9 +51,9 @@ class ThreadTest extends TestCase
     {
         $reply = factory(Reply::class)->create(['thread_id' => $this->thread->id]);
 
-        $response = $this->get($this->thread->path());
-
-        $response->assertSee($reply->body);
+        $this->assertDatabaseHas('replies', [
+            'id' => $reply->id
+        ]);
     }
 
     /**
@@ -95,5 +95,15 @@ class ThreadTest extends TestCase
 
     }
 
+    /** @test */
+    public function a_user_can_get_all_replies_from_given_thread()
+    {
+        $thread = create(Thread::class);
 
+        create(Reply::class, ['thread_id' => $thread->id], 3);
+
+        $response = $this->getJson($thread->path().'/reply')->json();
+        $this->assertCount(1, $response['data']);
+        $this->assertEquals(3, $response['total']);
+    }
 }

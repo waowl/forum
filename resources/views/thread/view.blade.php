@@ -25,7 +25,7 @@
                    </div>
                </div>
 
-               <replies @removed="repliesCount--" thread_path="{{$thread->path()}}" :data="{{$thread->replies}}"></replies>
+               <replies @removed="repliesCount--" @added="repliesCount++" thread_path="{{$thread->path()}}"></replies>
 
            </div>
            <div class="col-md-4">
