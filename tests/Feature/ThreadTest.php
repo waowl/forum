@@ -96,14 +96,26 @@ class ThreadTest extends TestCase
     }
 
     /** @test */
+    public function a_user_can_get_unanswered_thread()
+    {
+        $thread = create(Thread::class);
+
+        create(Reply::class, ['thread_id' => $thread->id]);
+
+        $response = $this->getJson('/thread?unanswered=1')->json();
+
+        $this->assertCount(1, $response);
+    }
+
+    /** @test */
     public function a_user_can_get_all_replies_from_given_thread()
     {
         $thread = create(Thread::class);
 
-        create(Reply::class, ['thread_id' => $thread->id], 3);
+        create(Reply::class, ['thread_id' => $thread->id], 7);
 
         $response = $this->getJson($thread->path().'/reply')->json();
-        $this->assertCount(1, $response['data']);
-        $this->assertEquals(3, $response['total']);
+        $this->assertCount(4, $response['data']);
+        $this->assertEquals(7, $response['total']);
     }
 }

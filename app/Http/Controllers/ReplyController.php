@@ -15,7 +15,7 @@ class ReplyController extends Controller
     }
 
     public function index(Channel $channel, Thread $thread) {
-        return $thread->replies()->paginate(1);
+        return $thread->replies()->paginate(4);
     }
 
     public function create(Channel $channel, Thread $thread)
