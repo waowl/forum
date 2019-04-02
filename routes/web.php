@@ -24,11 +24,18 @@ Route::get('/thread/create','ThreadController@create')->name('thread.create');
 Route::get('/thread/{channel}','ThreadController@index');
 Route::post('/thread','ThreadController@store')->name('thread.store');
 Route::get('/thread/{channel}/{thread}','ThreadController@view')->name('thread');
-Route::get('/thread/{channel}/{thread}/reply','ReplyController@index');
 Route::delete('/thread/{channel}/{thread}','ThreadController@destroy');
+
+Route::get('/thread/{channel}/{thread}/reply','ReplyController@index');
 Route::post('/thread/{channel}/{thread}/reply','ReplyController@create');
-Route::post('/reply/{reply}/favorite','FavoriteController@store');
-Route::delete('/reply/{reply}/favorite','FavoriteController@destroy');
-Route::get('/profiles/{user}', 'ProfileController@show');
 Route::delete('/reply/{reply}', 'ReplyController@destroy');
 Route::patch('/reply/{reply}', 'ReplyController@update');
+
+Route::get('/profiles/{user}', 'ProfileController@show');
+
+
+Route::delete('/reply/{reply}/favorite','FavoriteController@destroy');
+Route::post('/reply/{reply}/favorite','FavoriteController@store');
+
+Route::post('/thread/{channel}/{thread}/subscription','SubscriptionController@store');
+Route::delete('/thread/{channel}/{thread}/subscription','SubscriptionController@destroy');

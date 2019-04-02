@@ -95,9 +95,9 @@ class ThreadTest extends TestCase
         $this->assertDatabaseMissing('threads', ['id' => $thread->id]);
         $this->assertDatabaseMissing('replies', ['id' => $reply->id]);
         $this->assertDatabaseMissing('activities', [
-                'subject_id' => $thread->id,
-                'subject_type' => get_class($thread)
-            ]);
+            'subject_id' => $thread->id,
+            'subject_type' => get_class($thread)
+        ]);
     }
 
     /** @test */
@@ -106,6 +106,21 @@ class ThreadTest extends TestCase
         $thread = create(Thread::class);
 
         $this->delete($thread->path())->assertStatus(403);
+
+
     }
 
+    /** @test */
+    public function a_thread_can_be_subscribed_or_unsubscribed_to_thread()
+    {
+        $thread = create(Thread::class);
+
+        $thread->subscribe();
+
+        $this->assertDatabaseHas('subscriptions', ['thread_id' => $thread->id]);
+
+        $thread->unsubscribe();
+
+        $this->assertDatabaseMissing('subscriptions', ['thread_id' => $thread->id]);
+    }
 }
