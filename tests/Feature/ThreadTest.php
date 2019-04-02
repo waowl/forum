@@ -72,12 +72,11 @@ class ThreadTest extends TestCase
     /** @test */
     public function a_user_can_read_thread_created_by_concrete_user()
     {
-        $user = create(User::class, ['name'=> 'John']);
+        $user = create(User::class, ['name' => 'John']);
 
         $this->signIn($user);
         $thread = create(Thread::class, ['user_id' => $user->id, 'channel_id' => 1]);
-        $this->get('/thread?by=John')
-            ->assertSee($thread->title);
+        $this->get('/thread?by=John')->assertSee($thread->title);
 
     }
 
@@ -86,12 +85,12 @@ class ThreadTest extends TestCase
     {
         $threadWithThreeReplies = create(Thread::class);
         $threadWithTwoReplies = create(Thread::class);
-         create(Reply::class,['thread_id'=> $threadWithThreeReplies->id], 3);
-        create(Reply::class,['thread_id'=> $threadWithTwoReplies->id], 2);
+        create(Reply::class, ['thread_id' => $threadWithThreeReplies->id], 3);
+        create(Reply::class, ['thread_id' => $threadWithTwoReplies->id], 2);
 
         $response = $this->getJson('/thread?popularity=1')->json();
 
-        $this->assertEquals([3, 2, 0],array_column($response, 'replies_count') );
+        $this->assertEquals([3, 2, 0], array_column($response, 'replies_count'));
 
     }
 
@@ -114,8 +113,32 @@ class ThreadTest extends TestCase
 
         create(Reply::class, ['thread_id' => $thread->id], 7);
 
-        $response = $this->getJson($thread->path().'/reply')->json();
+        $response = $this->getJson($thread->path() . '/reply')->json();
         $this->assertCount(4, $response['data']);
         $this->assertEquals(7, $response['total']);
     }
+
+    /** @test */
+    public function a_user_can_subscribes_to_test()
+    {
+        $this->signIn();
+
+        $thread = create(Thread::class);
+
+        $this->post($thread->path().'/subscription');
+        $this->assertCount(1, $thread->subscriptions);
+    }
+
+    /** @test */
+    public function a_user_can_unsubscribes_to_test()
+    {
+        $this->signIn();
+
+        $thread = create(Thread::class);
+
+        $this->post($thread->path().'/subscription');
+        $this->delete($thread->path().'/subscription');
+        $this->assertCount(0, $thread->subscriptions);
+    }
+
 }
