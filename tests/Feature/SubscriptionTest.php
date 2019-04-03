@@ -3,6 +3,7 @@
 namespace Tests\Feature;
 
 use App\Thread;
+use App\User;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
@@ -38,12 +39,12 @@ class SubscriptionTest extends TestCase
     public function a_user_will_be_notified()
     {
         $this->signIn();
-
+        $producer = create(User::class);
         $thread = create(Thread::class);
         $this->post($thread->path().'/subscription');
         $thread->addReply([
             'body' => 'test',
-            'user_id' => 55
+            'user_id' => $producer->id
         ]);
 
         $this->assertCount(1, auth()->user()->notifications);
