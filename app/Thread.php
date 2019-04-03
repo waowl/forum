@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\Notifications\ThreadWasUpdated;
 use App\Traits\RecordActivity;
 use Illuminate\Database\Eloquent\Model;
 
@@ -53,7 +54,16 @@ class Thread extends Model
 
     public function addReply(array $reply)
     {
-        return $this->replies()->create($reply);
+        $reply = $this->replies()->create($reply);
+
+        $this->subscriptions->filter(function ($sub) use ($reply) {
+           return $sub->user_id != $reply->user_id;
+        })
+        ->each(function ($sub) use ($reply) {
+            $sub->user->notify(new ThreadWasUpdated($this, $reply));
+        });
+
+        return $reply;
     }
 
     public function scopeFilter($query, $filters)

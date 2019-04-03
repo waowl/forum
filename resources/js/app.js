@@ -23,6 +23,7 @@ files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(
 Vue.component('thread', require('./components/Thread.vue').default);
 Vue.component('flash', require('./components/Flash.vue').default);
 Vue.component('paginator', require('./components/Paginator.vue').default);
+Vue.component('notifications', require('./components/Notifications.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

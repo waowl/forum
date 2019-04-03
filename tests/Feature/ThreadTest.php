@@ -118,27 +118,6 @@ class ThreadTest extends TestCase
         $this->assertEquals(7, $response['total']);
     }
 
-    /** @test */
-    public function a_user_can_subscribes_to_test()
-    {
-        $this->signIn();
 
-        $thread = create(Thread::class);
-
-        $this->post($thread->path().'/subscription');
-        $this->assertCount(1, $thread->subscriptions);
-    }
-
-    /** @test */
-    public function a_user_can_unsubscribes_to_test()
-    {
-        $this->signIn();
-
-        $thread = create(Thread::class);
-
-        $this->post($thread->path().'/subscription');
-        $this->delete($thread->path().'/subscription');
-        $this->assertCount(0, $thread->subscriptions);
-    }
 
 }
