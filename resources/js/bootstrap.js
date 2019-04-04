@@ -55,6 +55,6 @@ if (token) {
 //     encrypted: true
 // });
 window.events = new Vue();
-window.flash = (message) => {
-    window.events.$emit('flash', message)
+window.flash = (message, status="success") => {
+    window.events.$emit('flash', {status, message})
 }

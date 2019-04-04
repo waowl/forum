@@ -1,5 +1,5 @@
 <template>
-    <div class="alert alert-success" v-show="show">
+    <div :class="classes" v-show="show">
         {{body}}
     </div>
 </template>
@@ -10,14 +10,25 @@
         data () {
             return {
                 body: '',
+                status: '',
                 show: false
             }
         },
+        computed: {
+            classes() {
+                return [
+                    'alert',
+                    'alert-'+this.status
+                ]
+            }
+        },
         methods: {
-            flash (message) {
-                this.body = message
+            flash (data) {
+                this.body = data.message
                 this.show = true
+                this.status = data.status
                 this.hide()
+
             },
             hide () {
                 setTimeout(() => {
@@ -30,8 +41,8 @@
                 this.flash(this.message)
             }
 
-            window.events.$on('flash', message => {
-                this.flash(message)
+            window.events.$on('flash', data => {
+                this.flash(data)
             })
         }
     }

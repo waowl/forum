@@ -93,4 +93,18 @@ class ParticipationForumTest extends TestCase
     }
 
 
+    /** @test */
+    public function reply_contains_spam_may_not_be_created()
+    {
+        $this->signIn();
+        $thread = create(Thread::class);
+        $reply = make(Reply::class, [
+           'body' => 'spam'
+        ]);
+
+        $response = $this->post($thread->path().'/reply', $reply->toArray());
+        $response->assertStatus(422);
+    }
+
+
 }

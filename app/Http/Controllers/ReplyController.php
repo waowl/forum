@@ -23,11 +23,15 @@ class ReplyController extends Controller
         $this->validate(\request(), [
            'body' => 'required'
         ]);
-        $reply = $thread->addReply([
-           'body' => \request('body'),
-           'user_id' => auth()->id()
-        ]);
 
+      try {
+          $reply = $thread->addReply([
+              'body' => \request('body'),
+              'user_id' => auth()->id()
+          ]);
+       } catch (\Exception $exception) {
+          return response('Your reply could not be saved!', 422);
+      }
         if(\request()->expectsJson()) {
             return $reply->load('owner');
         }

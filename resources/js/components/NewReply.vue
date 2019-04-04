@@ -21,7 +21,7 @@
             return {
                 reply: '',
                 path: this.thread_path + '/reply',
-                sending:false
+                sending: false
             }
         },
         methods: {
@@ -33,8 +33,10 @@
                             this.reply = ''
                             this.$emit('added', data)
                             flash('Reply was added!')
+                        }).catch(err => {
+                            flash(err.response.data, 'danger')
                             this.sending = false
-                        })
+                    })
                 }
             }
         },
