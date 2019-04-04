@@ -56,12 +56,7 @@ class Thread extends Model
     {
         $reply = $this->replies()->create($reply);
 
-        $this->subscriptions->filter(function ($sub) use ($reply) {
-           return $sub->user_id != $reply->user_id;
-        })
-        ->each(function ($sub) use ($reply) {
-            $sub->user->notify(new ThreadWasUpdated($this, $reply));
-        });
+        $this->notifySubscribers($reply);
 
         return $reply;
     }
@@ -85,6 +80,16 @@ class Thread extends Model
     public function subscriptions()
     {
         return $this->hasMany(Subscription::class);
+    }
+
+
+    private function notifySubscribers($reply): void
+    {
+        $this->subscriptions->filter(function ($sub) use ($reply) {
+            return $sub->user_id != $reply->user_id;
+        })->each(function ($sub) use ($reply) {
+                $sub->user->notify(new ThreadWasUpdated($this, $reply));
+            });
     }
 
 }
