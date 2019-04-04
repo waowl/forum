@@ -25,6 +25,7 @@ class ThreadTest extends TestCase
      */
     public function user_can_see_all_threads()
     {
+        $this->signIn();
         $response = $this->get('/thread');
 
         $response->assertSee($this->thread->title);
@@ -62,6 +63,8 @@ class ThreadTest extends TestCase
      * */
     public function user_can_see_threads_in_a_channel()
     {
+        $this->signIn();
+
         $channel = create(Channel::class);
         $threadIn = create(Thread::class, ['channel_id' => $channel->id]);
         $threadNotIn = create(Thread::class);

@@ -7,6 +7,7 @@ use App\Filters\ThreadFilters;
 use App\Thread;
 use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Carbon;
 
 class ThreadController extends Controller
 {
@@ -31,8 +32,10 @@ class ThreadController extends Controller
 
     public function view(Channel $channel, Thread $thread)
     {
-        $replies = $thread->replies()->with('owner')->paginate(2);
-        return view('thread.view', compact('thread', 'replies'));
+        if(auth()->check()) {
+            auth()->user()->read($thread);
+        }
+        return view('thread.view', compact('thread'));
     }
 
     public function create()

@@ -92,4 +92,10 @@ class Thread extends Model
             });
     }
 
+    public function hasUpdatedFor()
+    {
+        $key = auth()->user()->getVisitedThreadCacheKey($this);
+        return $this->updated_at > cache($key);
+    }
+
 }
