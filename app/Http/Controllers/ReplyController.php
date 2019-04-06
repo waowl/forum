@@ -6,6 +6,7 @@ use App\Channel;
 use App\Reply;
 use App\Thread;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Gate;
 
 class ReplyController extends Controller
 {
@@ -21,7 +22,9 @@ class ReplyController extends Controller
 
     public function create(Channel $channel, Thread $thread)
     {
-
+        if (Gate::denies('create', new Reply)) {
+            return response('You post too frequently!', 422);
+        }
         try {
             \request()->validate(['body' => 'required|spamfree']);
             $reply = $thread->addReply([
@@ -36,7 +39,7 @@ class ReplyController extends Controller
             return $reply->load('owner');
         }
 
-        return back()->with('flash', 'Reply was added.');
+        return response ('Reply was added', 200);
     }
 
     public function destroy(Reply $reply)

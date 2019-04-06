@@ -52,7 +52,7 @@ class ParticipationForumTest extends TestCase
         $this->signIn();
         $thread = create(Thread::class);
         $reply = make(Reply::class, ['body' => null]);
-        $this->post($thread->path()."/reply", $reply->toArray())->assertStatus(422);
+        $this->post($thread->path() . "/reply", $reply->toArray())->assertStatus(422);
 
     }
 
@@ -62,8 +62,7 @@ class ParticipationForumTest extends TestCase
     {
         $reply = create(Reply::class);
 
-        $this->delete("/reply/{$reply->id}")
-            ->assertRedirect('/login');
+        $this->delete("/reply/{$reply->id}")->assertRedirect('/login');
     }
 
     /** @test */
@@ -99,12 +98,28 @@ class ParticipationForumTest extends TestCase
         $this->signIn();
         $thread = create(Thread::class);
         $reply = make(Reply::class, [
-           'body' => 'spam'
+            'body' => 'spam'
         ]);
 
-        $response = $this->post($thread->path().'/reply', $reply->toArray());
+        $response = $this->post($thread->path() . '/reply', $reply->toArray());
         $response->assertStatus(422);
     }
 
+    /** @test */
+    public function an_user_can_add_reply_only_one_time_per_minute()
+    {
+        $this->signIn();
+
+        $thread = create(Thread::class);
+        $reply1 = make(Reply::class, ['body' => 'hey']);
+
+        $this->post($thread->path() . '/reply', $reply1->toArray())->assertStatus(200);
+
+        $reply2 = make(Reply::class, ['body' => 'he33']);
+
+        $this->post($thread->path() . '/reply', $reply2->toArray())
+            ->assertStatus(422);
+
+    }
 
 }

@@ -1916,6 +1916,7 @@ __webpack_require__.r(__webpack_exports__);
           _this.$emit('added', data);
 
           flash('Reply was added!');
+          _this.sending = false;
         }).catch(function (err) {
           flash(err.response.data, 'danger');
           _this.sending = false;
