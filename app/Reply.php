@@ -3,6 +3,7 @@
 namespace App;
 
 use App\Traits\RecordActivity;
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use App\Traits\Favoritable;
 
@@ -53,4 +54,8 @@ class Reply extends Model
         return $this->favorites()->count();
     }
 
+    public function wasCreatedNow()
+    {
+        return  $this->created_at->gt(Carbon::now()->subMinute());
+    }
 }

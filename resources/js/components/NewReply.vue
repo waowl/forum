@@ -33,9 +33,10 @@
                             this.reply = ''
                             this.$emit('added', data)
                             flash('Reply was added!')
-                        }).catch(err => {
-                            flash(err.response.data, 'danger')
                             this.sending = false
+                        }).catch(err => {
+                        flash(err.response.data, 'danger')
+                        this.sending = false
                     })
                 }
             }
