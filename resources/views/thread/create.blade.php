@@ -10,7 +10,7 @@
         @if(count($errors))
             <div class="alert alert-danger">
                 @foreach($errors->all() as $error)
-                    <li>{{$error}}</li>
+                        <li class="list-item">{{$error}}</li>
                 @endforeach
             </div>
         @endif
