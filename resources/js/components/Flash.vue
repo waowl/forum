@@ -47,7 +47,7 @@
         }
     }
 </script>
-<style>
+<style scoped>
     .alert {
         position: fixed;
         right: 20px;

@@ -5,9 +5,9 @@
                 <a :href="'/profiles/'+reply.owner.name" v-text="reply.owner.name"> </a>
                 said <span v-text="ago"></span>
             </div>
-           <div v-if="signedIn">
-               <favorite :reply="reply"></favorite>
-           </div>
+            <div v-if="signedIn">
+                <favorite :reply="reply"></favorite>
+            </div>
         </div>
         <div class="card-body">
             <div v-if="editing">
@@ -31,8 +31,9 @@
     </div>
 </template>
 <script>
-    import  moment from 'moment'
-    import Favorite from  './Favorite'
+    import moment from 'moment'
+    import Favorite from './Favorite'
+
     export default {
         components: {
             Favorite
@@ -53,8 +54,9 @@
                         .then((res) => {
                             this.editing = false
                             flash(res.data.status)
-
-                        })
+                        }).catch(err => {
+                        flash(err.response.data, 'danger')
+                    })
                 }
             },
             destroy () {
@@ -67,15 +69,15 @@
             }
         },
         computed: {
-            signedIn(){
-                return window.App.signedIn;
+            signedIn () {
+                return window.App.signedIn
             },
-            ago() {
-              return moment(this.reply.created_at).fromNow()
+            ago () {
+                return moment(this.reply.created_at).fromNow()
             },
-            canUpdate(){
-                if( window.App.user) {
-                    return this.data.owner.id == window.App.user.id;
+            canUpdate () {
+                if (window.App.user) {
+                    return this.data.owner.id == window.App.user.id
                 }
                 return false
             }

@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use App\Channel;
+use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 
@@ -20,6 +21,7 @@ class AppServiceProvider extends ServiceProvider
         {
             $this->app->register(\Barryvdh\Debugbar\ServiceProvider::class);
         }
+
     }
 
     /**
@@ -29,5 +31,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        Validator::extend('spamfree', 'App\Rules\SpamFree@passes');
     }
 }

@@ -14,25 +14,25 @@ class ReplyController extends Controller
         $this->middleware('auth')->except(['index']);
     }
 
-    public function index(Channel $channel, Thread $thread) {
+    public function index(Channel $channel, Thread $thread)
+    {
         return $thread->replies()->paginate(4);
     }
 
     public function create(Channel $channel, Thread $thread)
     {
-        $this->validate(\request(), [
-           'body' => 'required'
-        ]);
 
-      try {
-          $reply = $thread->addReply([
-              'body' => \request('body'),
-              'user_id' => auth()->id()
-          ]);
-       } catch (\Exception $exception) {
-          return response('Your reply could not be saved!', 422);
-      }
-        if(\request()->expectsJson()) {
+        try {
+            \request()->validate(['body' => 'required|spamfree']);
+            $reply = $thread->addReply([
+                'body' => \request('body'),
+                'user_id' => auth()->id()
+            ]);
+        } catch (\Exception $exception) {
+            return response('Your reply could not be saved!', 422);
+        }
+
+        if (\request()->expectsJson()) {
             return $reply->load('owner');
         }
 
@@ -51,7 +51,13 @@ class ReplyController extends Controller
 
     public function update(Reply $reply)
     {
+        try {
+            \request()->validate(['body' => 'required|spamfree']);
+        } catch (\Exception $exception) {
+            return response('Your reply could not be saved!', 422);
+        }
         $reply->update(\request()->all());
+
 
         return ['status' => 'Reply updated!'];
     }
