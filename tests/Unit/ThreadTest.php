@@ -10,7 +10,6 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
 
-
 class ThreadTest extends TestCase
 {
     use DatabaseMigrations;
@@ -30,8 +29,8 @@ class ThreadTest extends TestCase
         $thread = factory(Thread::class)->create();
 
         $thread->addReply([
-            'body' => 'body',
-            'user_id' => 1
+            'body'    => 'body',
+            'user_id' => 1,
         ]);
 
         $this->assertCount(1, $thread->replies);
@@ -46,7 +45,6 @@ class ThreadTest extends TestCase
         $thread = factory(Thread::class)->create();
 
         $this->assertInstanceOf(Collection::class, $thread->replies);
-
     }
 
     /**
@@ -69,7 +67,6 @@ class ThreadTest extends TestCase
         $thread = create(Thread::class);
 
         $this->assertInstanceOf(Channel::class, $thread->channel);
-
     }
 
     /**
@@ -95,8 +92,8 @@ class ThreadTest extends TestCase
         $this->assertDatabaseMissing('threads', ['id' => $thread->id]);
         $this->assertDatabaseMissing('replies', ['id' => $reply->id]);
         $this->assertDatabaseMissing('activities', [
-            'subject_id' => $thread->id,
-            'subject_type' => get_class($thread)
+            'subject_id'   => $thread->id,
+            'subject_type' => get_class($thread),
         ]);
     }
 
@@ -106,8 +103,6 @@ class ThreadTest extends TestCase
         $thread = create(Thread::class);
 
         $this->delete($thread->path())->assertStatus(403);
-
-
     }
 
     /** @test */

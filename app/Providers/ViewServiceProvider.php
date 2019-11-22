@@ -32,6 +32,5 @@ class ViewServiceProvider extends ServiceProvider
             });
             $view->with('channels', $channels);
         });
-
     }
 }

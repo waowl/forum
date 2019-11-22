@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Channel;
 use App\Reply;
 use App\Thread;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 
 class ReplyController extends Controller
@@ -22,14 +21,15 @@ class ReplyController extends Controller
 
     public function create(Channel $channel, Thread $thread)
     {
-        if (Gate::denies('create', new Reply)) {
+        if (Gate::denies('create', new Reply())) {
             return response('You post too frequently!', 422);
         }
+
         try {
             \request()->validate(['body' => 'required|spamfree']);
             $reply = $thread->addReply([
-                'body' => \request('body'),
-                'user_id' => auth()->id()
+                'body'    => \request('body'),
+                'user_id' => auth()->id(),
             ]);
         } catch (\Exception $exception) {
             return response('Your reply could not be saved!', 422);
@@ -39,7 +39,7 @@ class ReplyController extends Controller
             return $reply->load('owner');
         }
 
-        return response ('Reply was added', 200);
+        return response('Reply was added', 200);
     }
 
     public function destroy(Reply $reply)
@@ -49,6 +49,7 @@ class ReplyController extends Controller
         if (\request()->expectsJson()) {
             return response(['status' => 'Reply was deleted!']);
         }
+
         return back();
     }
 
@@ -61,8 +62,6 @@ class ReplyController extends Controller
         }
         $reply->update(\request()->all());
 
-
         return ['status' => 'Reply updated!'];
     }
-
 }
