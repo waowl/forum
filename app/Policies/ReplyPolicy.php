@@ -34,11 +34,11 @@ class ReplyPolicy
     {
         $lastReply = $user->fresh()->lastReply;
 
-        if (!$lastReply) {
+        if (! $lastReply) {
             return true;
         }
 
-        return !$lastReply->wasCreatedNow();
+        return ! $lastReply->wasCreatedNow();
     }
 
     /**
