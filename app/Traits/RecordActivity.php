@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Traits;
-
 
 use App\Activity;
 
@@ -10,9 +8,10 @@ trait RecordActivity
 {
     protected static function bootRecordActivity()
     {
-        if (auth()->guest()) return;
-        foreach (static::getRecordEvents() as $event)
-        {
+        if (auth()->guest()) {
+            return;
+        }
+        foreach (static::getRecordEvents() as $event) {
             static::$event(function ($model) use ($event) {
                 $model->getRecordActivity($event);
             });
@@ -26,16 +25,17 @@ trait RecordActivity
     {
         return ['created'];
     }
+
     protected function getActivityType($event)
     {
-        return $event . '_' . strtolower((new \ReflectionClass($this))->getShortName());
+        return $event.'_'.strtolower((new \ReflectionClass($this))->getShortName());
     }
 
     protected function getRecordActivity($event)
     {
         $this->activities()->create([
             'user_id' => auth()->id(),
-            'type' => $this->getActivityType($event),
+            'type'    => $this->getActivityType($event),
         ]);
     }
 

@@ -1,21 +1,19 @@
 <?php
 
-
 namespace App\Inspections;
-use App\Inspections\InvalidWodrs;
 
 class Spam
 {
     protected $inspections = [
-        InvalidWodrs::class
+        InvalidWodrs::class,
     ];
 
-   public function detect($body)
-   {
-       foreach ($this->inspections as $inspection) {
-           (new $inspection)->detect($body);
-       }
-       return false;
+    public function detect($body)
+    {
+        foreach ($this->inspections as $inspection) {
+            (new $inspection())->detect($body);
+        }
 
-   }
+        return false;
+    }
 }

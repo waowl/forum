@@ -6,9 +6,11 @@ use App\Reply;
 use App\User;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
+
 class FavoriteTest extends TestCase
 {
     use DatabaseMigrations;
+
     /** @test */
     public function a_guest_cant_favorite_anything()
     {
@@ -16,7 +18,6 @@ class FavoriteTest extends TestCase
         $this->expectException('Illuminate\Auth\AuthenticationException');
         $reply = create(Reply::class);
         $this->post("/reply/{$reply->id}/favorite");
-
     }
 
     /** @test */

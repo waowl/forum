@@ -20,9 +20,7 @@ class Thread extends Model
         static::deleting(function ($thread) {
             $thread->replies->each->delete();
         });
-
     }
-
 
     public function getIsSubscribedToAttribute()
     {
@@ -54,7 +52,6 @@ class Thread extends Model
 
     public function addReply(array $reply)
     {
-
         $reply = $this->replies()->create($reply);
 
         $this->notifySubscribers($reply);
@@ -67,36 +64,37 @@ class Thread extends Model
         return $filters->apply($query);
     }
 
-    public  function subscribe($userId = null)
+    public function subscribe($userId = null)
     {
-       return $this->subscriptions()->create([
-            'user_id' => $userId?: auth()->id()
+        return $this->subscriptions()->create([
+            'user_id' => $userId ?: auth()->id(),
         ]);
     }
-    public  function unsubscribe($userId = null)
+
+    public function unsubscribe($userId = null)
     {
         return $this->subscriptions()->where(['user_id' => $userId ?: auth()->id()])
             ->delete();
     }
+
     public function subscriptions()
     {
         return $this->hasMany(Subscription::class);
     }
-
 
     private function notifySubscribers($reply): void
     {
         $this->subscriptions->filter(function ($sub) use ($reply) {
             return $sub->user_id != $reply->user_id;
         })->each(function ($sub) use ($reply) {
-                $sub->user->notify(new ThreadWasUpdated($this, $reply));
-            });
+            $sub->user->notify(new ThreadWasUpdated($this, $reply));
+        });
     }
 
     public function hasUpdatedFor()
     {
         $key = auth()->user()->getVisitedThreadCacheKey($this);
+
         return $this->updated_at > cache($key);
     }
-
 }

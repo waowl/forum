@@ -6,13 +6,10 @@ use App\Thread;
 use App\User;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
-use Illuminate\Foundation\Testing\WithFaker;
-use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class CreateThreadTest extends TestCase
 {
     use DatabaseMigrations;
-
 
     /**
      * @test
@@ -67,8 +64,8 @@ class CreateThreadTest extends TestCase
         $thread = make(Thread::class, ['title' => null]);
 
         $this->post('/thread', $thread->toArray())->assertSessionHasErrors('title');
-
     }
+
     /**
      * @test
      */
@@ -81,7 +78,6 @@ class CreateThreadTest extends TestCase
         $thread = make(Thread::class, ['body' => null]);
 
         $this->post('/thread', $thread->toArray())->assertSessionHasErrors('body');
-
     }
 
     /**
@@ -98,7 +94,5 @@ class CreateThreadTest extends TestCase
 
         $this->post('/thread', $thread->toArray())->assertSessionHasErrors('channel_id');
         $this->post('/thread', $threadTwo->toArray())->assertSessionHasErrors('channel_id');
-
     }
-
 }

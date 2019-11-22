@@ -2,9 +2,8 @@
 
 namespace App;
 
-use Illuminate\Notifications\Notifiable;
-use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Carbon;
 
 class User extends Authenticatable
@@ -61,13 +60,13 @@ class User extends Authenticatable
 
     /**
      * @param $thread
+     *
      * @return string
      */
     public function getVisitedThreadCacheKey($thread): string
     {
-          return sprintf("user.%s.visits.%s", $this->id, $thread->id);
+        return sprintf('user.%s.visits.%s', $this->id, $thread->id);
     }
-
 
     public function lastReply()
     {
