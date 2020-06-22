@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list id="57c8ffe7-2c3a-4617-b5b1-d9ad61ce8a26" name="5c86b1d69d085c73adb73d0c CircleCI конфиг" comment="5c86b1d69d085c73adb73d0c CircleCI конфиг fix" />
     <list id="846211ec-f9d1-4ce5-b9b1-0612c3f06735" name="5c8a498b690f1e0a4be71b51 Добавление треда" comment="Create Thread Test" />
-    <list id="bbb110c0-4b94-40ce-9087-fcd4e77db732" name="5c86617ec3f66e44f37ecdfc Комментарии" comment="">
+    <list id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="" />
+    <list default="true" id="a12a0f31-ddca-4ccb-a2b2-dbf4b2e25107" name="5ca5f7a9c8b97003980f82bd Фильтр спама" comment="deny user to post gt once per minute">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <list id="373be4e5-a166-488f-a99f-8ae8972038b9" name="5c9df0375d8a7a69f6fa5a34 Баг удаления активности лайка" comment="" />
-    <list default="true" id="a12a0f31-ddca-4ccb-a2b2-dbf4b2e25107" name="5ca5f7a9c8b97003980f82bd Фильтр спама" comment="deny user to post gt once per minute" />
     <list id="debd380a-4584-4614-84c9-2efce7b31f53" name="5ca0a87ba80ae882dea8f5d3 Фильтрация тредов без комментариев" comment="" />
-    <list id="5ac61f5f-ba9e-482d-b359-72faa6a73f5d" name="5c8d40fcf7b44a3a9d3fd7b1 Создать категории" comment="5c8d40fcf7b44a3a9d3fd7b1 Создать категории" />
+    <list id="bbb110c0-4b94-40ce-9087-fcd4e77db732" name="5c86617ec3f66e44f37ecdfc Комментарии" comment="" />
+    <list id="373be4e5-a166-488f-a99f-8ae8972038b9" name="5c9df0375d8a7a69f6fa5a34 Баг удаления активности лайка" comment="" />
     <list id="fc5afe30-6e1e-45d9-8f77-684ef74af0f4" name="Default" comment="migrations" />
-    <list id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="" />
+    <list id="57c8ffe7-2c3a-4617-b5b1-d9ad61ce8a26" name="5c86b1d69d085c73adb73d0c CircleCI конфиг" comment="5c86b1d69d085c73adb73d0c CircleCI конфиг fix" />
+    <list id="5ac61f5f-ba9e-482d-b359-72faa6a73f5d" name="5c8d40fcf7b44a3a9d3fd7b1 Создать категории" comment="5c8d40fcf7b44a3a9d3fd7b1 Создать категории" />
     <ignored path="D:\install\OpenServer\OSPanel\domains\forum\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -114,7 +114,7 @@
       <file leaf-file-name="ReplyPolicy.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Policies/ReplyPolicy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
+            <state relative-caret-position="896">
               <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
             </state>
           </provider>
@@ -123,7 +123,7 @@
       <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1960">
+            <state relative-caret-position="2044">
               <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
             </state>
           </provider>
@@ -132,7 +132,7 @@
       <file leaf-file-name="Reply.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Reply.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1540">
+            <state relative-caret-position="1624">
               <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
             </state>
           </provider>
@@ -141,7 +141,7 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
+            <state relative-caret-position="952">
               <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
             </state>
           </provider>
@@ -159,8 +159,8 @@
       <file leaf-file-name="ProfilesTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Feature/ProfilesTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="112">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -495,7 +495,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <branch name="5c8654b6a500f18a14077c36" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/w8NwVD6O/2-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B8</url>
       <option name="number" value="2" />
@@ -508,7 +508,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/3VP2Uiuo/3-%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B9-%D1%82%D0%B5%D1%81%D1%82</url>
       <option name="number" value="3" />
@@ -520,7 +520,7 @@
     </task>
     <task id="5c864f330703354255039545" summary="Создать миграции">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/RgtjjkKO/1-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D0%BC%D0%B8%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D0%B8</url>
       <option name="number" value="1" />
@@ -531,7 +531,7 @@
     <task id="5c8661730989b16d7bc873c5" summary="Связи таблиц">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/iAxUkLC2/4-%D1%81%D0%B2%D1%8F%D0%B7%D0%B8-%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86</url>
       <option name="number" value="4" />
@@ -545,7 +545,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="57c8ffe7-2c3a-4617-b5b1-d9ad61ce8a26" name="5c86b1d69d085c73adb73d0c CircleCI конфиг" comment="" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/EFpCBjjw/6-circleci-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3</url>
       <option name="number" value="6" />
@@ -573,7 +573,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="bbb110c0-4b94-40ce-9087-fcd4e77db732" name="5c86617ec3f66e44f37ecdfc Комментарии" comment="" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/0BZp99Cy/5-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B8</url>
       <option name="number" value="5" />
@@ -587,7 +587,7 @@
     <task id="5c8810ca2870d4833ff5be73" summary="Форма комментария">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/t6Bk4wi5/7-%D1%84%D0%BE%D1%80%D0%BC%D0%B0-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D1%8F</url>
       <option name="number" value="7" />
@@ -598,7 +598,7 @@
     <task id="5c8a42d3dd45be057ac67d25" summary="Меню">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/en6QDPTx/8-%D0%BC%D0%B5%D0%BD%D1%8E</url>
       <option name="number" value="8" />
@@ -610,7 +610,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="846211ec-f9d1-4ce5-b9b1-0612c3f06735" name="5c8a498b690f1e0a4be71b51 Добавление треда" comment="" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/DtFqino0/9-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%82%D1%80%D0%B5%D0%B4%D0%B0</url>
       <option name="number" value="9" />
@@ -633,7 +633,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="5ac61f5f-ba9e-482d-b359-72faa6a73f5d" name="5c8d40fcf7b44a3a9d3fd7b1 Создать категории" comment="" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/lPv3sjpE/10-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B8</url>
       <option name="number" value="10" />
@@ -644,7 +644,7 @@
     <task id="5c91e9aff8c86d80475d7f88" summary="Фильтрация по каналам">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/L6dZXkSS/11-%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0%D0%BC</url>
       <option name="number" value="11" />
@@ -658,7 +658,7 @@
     <task id="5c94cce76314103b344ac802" summary="Рефакторинг фильтрации">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/oNadGFKX/12-%D1%80%D0%B5%D1%84%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3-%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8</url>
       <option name="number" value="12" />
@@ -669,7 +669,7 @@
     <task id="5c94ef2eb6aa118d7c005c74" summary="Фильтрация по популярности">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/LIUNsu22/13-%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-%D0%BF%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D0%BE%D1%81%D1%82%D0%B8</url>
       <option name="number" value="13" />
@@ -684,7 +684,7 @@
     <task id="5c94ef51a46c9f74ab739de2" summary="Функциональность лайка">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/idm869dJ/14-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%BB%D0%B0%D0%B9%D0%BA%D0%B0</url>
       <option name="number" value="14" />
@@ -703,7 +703,7 @@
     <task id="5c97ed78b12de77b639e47aa" summary="Профили юзеров">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/R0p266qO/16-%D0%BF%D1%80%D0%BE%D1%84%D0%B8%D0%BB%D0%B8-%D1%8E%D0%B7%D0%B5%D1%80%D0%BE%D0%B2</url>
       <option name="number" value="16" />
@@ -739,7 +739,7 @@
     <task id="5c97edd323c8c45560c77420" summary="Активность юзеров">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/kmn0JqNN/17-%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D1%8E%D0%B7%D0%B5%D1%80%D0%BE%D0%B2</url>
       <option name="number" value="17" />
@@ -751,7 +751,7 @@
     <task id="5c9b171d8a69bc48311f5049" summary="Флеш-сообщения">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/bRrmbzfk/18-%D1%84%D0%BB%D0%B5%D1%88-%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D1%8F</url>
       <option name="number" value="18" />
@@ -762,7 +762,7 @@
     <task id="5c9b85feef791c7178e260a5" summary="Добавить лайки в ленту активности">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/w1oNO1HH/19-%D0%B4%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C-%D0%BB%D0%B0%D0%B9%D0%BA%D0%B8-%D0%B2-%D0%BB%D0%B5%D0%BD%D1%82%D1%83-%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D0%B8</url>
       <option name="number" value="19" />
@@ -773,7 +773,7 @@
     <task id="5c9b86133fca16781f0bd728" summary="Удаление комментариев">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/j19c8pS0/20-%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B5%D0%B2</url>
       <option name="number" value="20" />
@@ -787,7 +787,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/OeRqwn53/21-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D1%8F</url>
       <option name="number" value="21" />
@@ -798,7 +798,7 @@
     </task>
     <task id="5c9cbcc36fcaf011d340ee2b" summary="Cкрыть кнопку удаления треда">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/W00jJDJZ/23-c%D0%BA%D1%80%D1%8B%D1%82%D1%8C-%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D1%83-%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D1%82%D1%80%D0%B5%D0%B4%D0%B0</url>
       <option name="number" value="23" />
@@ -816,7 +816,7 @@
     <task id="5c9cbb26fffbd01b1c1e21cb" summary="Компонент лайка">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/Ivw5thw0/22-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82-%D0%BB%D0%B0%D0%B9%D0%BA%D0%B0</url>
       <option name="number" value="22" />
@@ -830,7 +830,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="373be4e5-a166-488f-a99f-8ae8972038b9" name="5c9df0375d8a7a69f6fa5a34 Баг удаления активности лайка" comment="" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/90H6MpPo/24-%D0%B1%D0%B0%D0%B3-%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%BB%D0%B0%D0%B9%D0%BA%D0%B0</url>
       <option name="number" value="24" />
@@ -841,7 +841,7 @@
     <task id="5c9df074567cea4d3c800323" summary="Рефакторинг компонентов комментария">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/BrMIZliK/25-%D1%80%D0%B5%D1%84%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D1%8F</url>
       <option name="number" value="25" />
@@ -853,7 +853,7 @@
     <task id="5c9df192940d76229ecb1137" summary="Пагинация комментариев">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/Xvp05oY6/26-%D0%BF%D0%B0%D0%B3%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B5%D0%B2</url>
       <option name="number" value="26" />
@@ -867,7 +867,7 @@
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
       <changelist id="debd380a-4584-4614-84c9-2efce7b31f53" name="5ca0a87ba80ae882dea8f5d3 Фильтрация тредов без комментариев" comment="" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/Msayd8aB/27-%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D1%82%D1%80%D0%B5%D0%B4%D0%BE%D0%B2-%D0%B1%D0%B5%D0%B7-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B5%D0%B2</url>
       <option name="number" value="27" />
@@ -881,7 +881,7 @@
     <task id="5ca0a8a188bcd943491ec223" summary="Функционал подписок на треды">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/cucOcfP0/28-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB-%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%BE%D0%BA-%D0%BD%D0%B0-%D1%82%D1%80%D0%B5%D0%B4%D1%8B</url>
       <option name="number" value="28" />
@@ -892,7 +892,7 @@
     <task id="5ca37c2b45a78774c1761acd" summary="Оповещение юзеров подписанных на тред">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/Q8DdCxjz/29-%D0%BE%D0%BF%D0%BE%D0%B2%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B5-%D1%8E%D0%B7%D0%B5%D1%80%D0%BE%D0%B2-%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D0%BD%D0%B0-%D1%82%D1%80%D0%B5%D0%B4</url>
       <option name="number" value="29" />
@@ -913,7 +913,7 @@
     <task id="5ca5f7998bddd3714f556d09" summary="Отображение времени последнего  посещения треда">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" original="true" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/ZNG8WYGT/30-%D0%BE%D1%82%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%B8-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B5%D0%B3%D0%BE-%D0%BF%D0%BE%D1%81%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D1%8F-%D1%82%D1%80%D0%B5%D0%B4%D0%B0</url>
       <option name="number" value="30" />
@@ -924,7 +924,7 @@
     <task active="true" id="5ca5f7a9c8b97003980f82bd" summary="Фильтр спама">
       <branch name="master" repository="D:\install\OpenServer\OSPanel\domains\forum" />
       <changelist id="a12a0f31-ddca-4ccb-a2b2-dbf4b2e25107" name="5ca5f7a9c8b97003980f82bd Фильтр спама" comment="" />
-      <created>1555076376278</created>
+      <created>1567693767994</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/DImiNh9a/31-%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80-%D1%81%D0%BF%D0%B0%D0%BC%D0%B0</url>
       <option name="number" value="31" />
@@ -934,6 +934,9 @@
       <workItem from="1554472477731" duration="594000" />
       <workItem from="1554556068826" duration="9150000" />
       <workItem from="1555060025048" duration="919000" />
+      <workItem from="1561378803863" duration="688000" />
+      <workItem from="1563284076874" duration="46000" />
+      <workItem from="1567693634053" duration="126000" />
     </task>
     <task id="LOCAL-00012" summary="spamfree custom validator">
       <created>1554560730869</created>
@@ -1010,10 +1013,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209452000" />
+    <option name="totallyTimeSpent" value="210312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="bottom" id="Regex Tester" order="3" weight="0.3295583" />
@@ -1023,7 +1027,7 @@
       <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49785176" weight="0.42921856" />
       <window_info id="npm" order="0" sideWeight="0.5138889" side_tool="true" weight="0.107948445" />
       <window_info anchor="right" id="Mongo Explorer" order="1" weight="0.30812642" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="6" sideWeight="0.49731472" visible="true" weight="0.34201586" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49731472" weight="0.34201586" />
       <window_info anchor="right" id="Remote Host" order="2" weight="0.32975295" />
       <window_info content_ui="combo" id="Project" order="3" sideWeight="0.4861111" weight="0.107948445" />
       <window_info anchor="right" id="ReST Console" order="0" />
@@ -1036,14 +1040,14 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="right" id="Commander" order="4" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.3292683" />
       <window_info id="Gulp" order="1" sideWeight="0.5007899" side_tool="true" weight="0.112660944" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.3290398" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.3295583" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.3292683" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" visible="true" weight="0.32975295" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49731472" weight="0.34201586" />
@@ -1051,25 +1055,25 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info id="npm" order="0" sideWeight="0.5138889" side_tool="true" weight="0.107948445" />
-      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.496614" weight="0.32150775" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49785176" visible="true" weight="0.42921856" />
       <window_info anchor="right" id="Remote Host" order="2" weight="0.32975295" />
       <window_info content_ui="combo" id="Project" order="3" sideWeight="0.4861111" weight="0.107948445" />
       <window_info id="Structure" order="4" sideWeight="0.50169873" side_tool="true" weight="0.1670247" />
       <window_info anchor="right" id="Commander" order="4" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" id="ReST Console" order="0" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49785176" visible="true" weight="0.42921856" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.496614" weight="0.32150775" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3292683" />
       <window_info anchor="bottom" id="Regex Tester" order="3" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
       <window_info id="Gulp" order="1" sideWeight="0.5007899" side_tool="true" weight="0.112660944" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.398641" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.3290398" />
       <window_info anchor="right" id="Mongo Explorer" order="1" weight="0.30812642" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5021482" side_tool="true" weight="0.36141908" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.398641" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="right" id="ReST Console" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5021482" side_tool="true" weight="0.36141908" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="right" id="Database" order="3" weight="0.32975295" />
@@ -1422,7 +1426,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
+        <state relative-caret-position="952">
           <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
         </state>
       </provider>
@@ -1436,21 +1440,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1960">
+        <state relative-caret-position="2044">
           <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Reply.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
+        <state relative-caret-position="1624">
           <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Policies/ReplyPolicy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
+        <state relative-caret-position="896">
           <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
         </state>
       </provider>
@@ -1471,8 +1475,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/ProfilesTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="112">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
