@@ -9,6 +9,7 @@ use Tests\TestCase;
 class ReplyTest extends TestCase
 {
     use DatabaseMigrations;
+
     /**
      * @test
      *

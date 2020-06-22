@@ -1,8 +1,8 @@
 <?php
 
 use App\User;
-use Illuminate\Support\Str;
 use Faker\Generator as Faker;
+use Illuminate\Support\Str;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,14 +17,13 @@ use Faker\Generator as Faker;
 
 $factory->define(User::class, function (Faker $faker) {
     return [
-        'name' => $faker->name,
-        'email' => $faker->unique()->safeEmail,
+        'name'              => $faker->name,
+        'email'             => $faker->unique()->safeEmail,
         'email_verified_at' => now(),
-        'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
-        'remember_token' => Str::random(10),
+        'password'          => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+        'remember_token'    => Str::random(10),
     ];
 });
-
 
 $factory->define(\App\Thread::class, function (Faker $faker) {
     return [
@@ -35,19 +34,18 @@ $factory->define(\App\Thread::class, function (Faker $faker) {
             return factory(App\Channel::class)->create()->id;
         },
         'title' => $faker->sentence,
-        'body' => $faker->paragraph,
+        'body'  => $faker->paragraph,
     ];
 });
-
 
 $factory->define(\App\Channel::class, function (Faker $faker) {
     $name = $faker->word;
+
     return [
         'name' => $name,
-        'slug' => str_slug($name)
+        'slug' => str_slug($name),
     ];
 });
-
 
 $factory->define(\App\Reply::class, function (Faker $faker) {
     return [
@@ -60,6 +58,3 @@ $factory->define(\App\Reply::class, function (Faker $faker) {
         'body' => $faker->paragraph,
     ];
 });
-
-
-

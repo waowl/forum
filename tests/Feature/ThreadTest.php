@@ -17,7 +17,6 @@ class ThreadTest extends TestCase
     {
         parent::setUp();
         $this->thread = create(Thread::class);
-
     }
 
     /**
@@ -29,7 +28,6 @@ class ThreadTest extends TestCase
         $response = $this->get('/thread');
 
         $response->assertSee($this->thread->title);
-
     }
 
     /**
@@ -38,7 +36,6 @@ class ThreadTest extends TestCase
      * */
     public function user_can_see_a_single_thread()
     {
-
         $response = $this->get($this->thread->path());
 
         $response->assertSee($this->thread->title);
@@ -53,7 +50,7 @@ class ThreadTest extends TestCase
         $reply = factory(Reply::class)->create(['thread_id' => $this->thread->id]);
 
         $this->assertDatabaseHas('replies', [
-            'id' => $reply->id
+            'id' => $reply->id,
         ]);
     }
 
@@ -80,7 +77,6 @@ class ThreadTest extends TestCase
         $this->signIn($user);
         $thread = create(Thread::class, ['user_id' => $user->id, 'channel_id' => 1]);
         $this->get('/thread?by=John')->assertSee($thread->title);
-
     }
 
     /** @test */
@@ -94,7 +90,6 @@ class ThreadTest extends TestCase
         $response = $this->getJson('/thread?popularity=1')->json();
 
         $this->assertEquals([3, 2, 0], array_column($response, 'replies_count'));
-
     }
 
     /** @test */
@@ -116,11 +111,8 @@ class ThreadTest extends TestCase
 
         create(Reply::class, ['thread_id' => $thread->id], 7);
 
-        $response = $this->getJson($thread->path() . '/reply')->json();
+        $response = $this->getJson($thread->path().'/reply')->json();
         $this->assertCount(4, $response['data']);
         $this->assertEquals(7, $response['total']);
     }
-
-
-
 }

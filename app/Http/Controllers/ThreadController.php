@@ -5,9 +5,7 @@ namespace App\Http\Controllers;
 use App\Channel;
 use App\Filters\ThreadFilters;
 use App\Thread;
-use App\User;
 use Illuminate\Http\Request;
-use Illuminate\Support\Carbon;
 
 class ThreadController extends Controller
 {
@@ -27,14 +25,16 @@ class ThreadController extends Controller
         if (\request()->wantsJson()) {
             return $threads;
         }
+
         return view('thread.index', compact('threads'));
     }
 
     public function view(Channel $channel, Thread $thread)
     {
-        if(auth()->check()) {
+        if (auth()->check()) {
             auth()->user()->read($thread);
         }
+
         return view('thread.view', compact('thread'));
     }
 
@@ -46,15 +46,15 @@ class ThreadController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'title' => 'required|spamfree',
-            'body' => 'required|spamfree',
-            'channel_id' => 'required|exists:channels,id'
+            'title'      => 'required|spamfree',
+            'body'       => 'required|spamfree',
+            'channel_id' => 'required|exists:channels,id',
         ]);
         $thread = Thread::create([
-            'user_id' => auth()->id(),
+            'user_id'    => auth()->id(),
             'channel_id' => \request('channel_id'),
-            'title' => \request('title'),
-            'body' => \request('body')
+            'title'      => \request('title'),
+            'body'       => \request('body'),
         ]);
 
         return redirect($thread->path())->with('flash', 'Thread created!');
@@ -64,6 +64,7 @@ class ThreadController extends Controller
     {
         $this->authorize('update', $thread);
         $thread->delete();
-        return redirect("/thread");
+
+        return redirect('/thread');
     }
 }

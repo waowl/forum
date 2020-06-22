@@ -2,10 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Favorite;
 use App\Reply;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
 class FavoriteController extends Controller
 {
@@ -16,12 +13,12 @@ class FavoriteController extends Controller
 
     public function store(Reply $reply)
     {
-         $reply->favorite();
-             if (\request()->expectsJson()) {
-                return response(['status'=> 'You favorited a reply']);
-             }
+        $reply->favorite();
+        if (\request()->expectsJson()) {
+            return response(['status'=> 'You favorited a reply']);
+        }
 
-             return redirect()->back();
+        return redirect()->back();
     }
 
     public function destroy(Reply $reply)

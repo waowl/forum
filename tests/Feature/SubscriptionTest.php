@@ -6,12 +6,11 @@ use App\Thread;
 use App\User;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Tests\TestCase;
-use Illuminate\Foundation\Testing\WithFaker;
-use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class SubscriptionTest extends TestCase
 {
     use DatabaseMigrations;
+
     /** @test */
     public function a_user_can_subscribes_to_test()
     {
@@ -43,11 +42,10 @@ class SubscriptionTest extends TestCase
         $thread = create(Thread::class);
         $this->post($thread->path().'/subscription');
         $thread->addReply([
-            'body' => 'test',
-            'user_id' => $producer->id
+            'body'    => 'test',
+            'user_id' => $producer->id,
         ]);
 
         $this->assertCount(1, auth()->user()->notifications);
     }
-
 }
