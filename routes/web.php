@@ -39,3 +39,6 @@ Route::post('/reply/{reply}/favorite', 'FavoriteController@store');
 
 Route::post('/thread/{channel}/{thread}/subscription', 'SubscriptionController@store');
 Route::delete('/thread/{channel}/{thread}/subscription', 'SubscriptionController@destroy');
+
+Route::get('/auth/{provider}', 'Auth\LoginController@loginSocial')->name('auth.social');
+Route::get('/auth/{provider}/callback', 'Auth\LoginController@handleProviderCallback');

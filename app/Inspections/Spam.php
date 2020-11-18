@@ -5,7 +5,7 @@ namespace App\Inspections;
 class Spam
 {
     protected $inspections = [
-        InvalidWodrs::class,
+        InvalidWords::class,
     ];
 
     public function detect($body)

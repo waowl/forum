@@ -4,7 +4,7 @@ namespace App\Inspections;
 
 use Exception;
 
-class InvalidWodrs
+class InvalidWords
 {
     public function detect($body)
     {

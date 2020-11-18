@@ -66,6 +66,10 @@
                         </div>
                     </form>
                 </div>
+                <div>
+                    <small>or</small>
+                    <a href="{{route('auth.social', ['github'])}}" class="btn btn-danger">Login With GitHub</a>
+                </div>
             </div>
         </div>
     </div>
