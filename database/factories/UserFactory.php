@@ -43,7 +43,7 @@ $factory->define(\App\Channel::class, function (Faker $faker) {
 
     return [
         'name' => $name,
-        'slug' => str_slug($name),
+        'slug' => Str::slug($name),
     ];
 });
 
