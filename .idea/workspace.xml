@@ -33,7 +33,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a12a0f31-ddca-4ccb-a2b2-dbf4b2e25107" name="5ca5f7a9c8b97003980f82bd Фильтр спама" comment="spamfree custom validator">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
     </list>
     <list id="6b954ab1-2e08-4730-a5dc-6b88027f0730" name="5c865d89ae251432a2c103ea Первый тест" comment="" />
     <list id="bbb110c0-4b94-40ce-9087-fcd4e77db732" name="5c86617ec3f66e44f37ecdfc Комментарии" comment="" />
@@ -50,47 +50,12 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/forum$forumTests.xml" NAME="forumTests Coverage Results" MODIFIED="1553951867994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="forum@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="forum@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="forum@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="forum: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="forum@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="forum: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="notifications: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-    </expand>
-    <select />
   </component>
   <component name="FileColors">
     <fileColor scope="Non-Project Files (Material Default)" color="415967" />
@@ -807,7 +772,7 @@
       <workItem from="1554389963608" duration="8182000" />
       <workItem from="1554472477731" duration="594000" />
       <workItem from="1554556068826" duration="8546000" />
-      <workItem from="1605694780313" duration="2565000" />
+      <workItem from="1605694780313" duration="2947000" />
     </task>
     <task id="LOCAL-00012" summary="spamfree custom validator">
       <created>1554560730869</created>
@@ -885,22 +850,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="spamfree custom validator" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1847" height="669" key="GridCell.Tab.0.bottom" timestamp="1605696879459">
+    <state x="669" y="415" key="ComposerInitDialogKey" timestamp="1605697687051">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1847" height="669" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605696879459" />
-    <state width="1847" height="669" key="GridCell.Tab.0.center" timestamp="1605696879459">
+    <state x="669" y="415" key="ComposerInitDialogKey/0.0.1920.1040@0.0.1920.1040" timestamp="1605697687051" />
+    <state width="1847" height="669" key="GridCell.Tab.0.bottom" timestamp="1605697716944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1847" height="669" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605696879459" />
-    <state width="1847" height="669" key="GridCell.Tab.0.left" timestamp="1605696879458">
+    <state width="1847" height="669" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605697716944" />
+    <state width="1847" height="669" key="GridCell.Tab.0.center" timestamp="1605697716944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1847" height="669" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605696879458" />
-    <state width="1847" height="669" key="GridCell.Tab.0.right" timestamp="1605696879459">
+    <state width="1847" height="669" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605697716944" />
+    <state width="1847" height="669" key="GridCell.Tab.0.left" timestamp="1605697716944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1847" height="669" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605696879459" />
+    <state width="1847" height="669" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605697716944" />
+    <state width="1847" height="669" key="GridCell.Tab.0.right" timestamp="1605697716944">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1847" height="669" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605697716944" />
   </component>
   <component name="masterDetails">
     <states>
