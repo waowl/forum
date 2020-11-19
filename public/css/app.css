@@ -10645,3 +10645,19 @@ a.text-dark:focus {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+.social_login {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.btn_github {
+  background-color: black;
+  color: snow;
+  text-transform: uppercase;
+}
+
+.social_icon {
+  padding-right: 8px;
+}
+
